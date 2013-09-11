@@ -1,7 +1,7 @@
 /**
  * 
  */
-package jp.co.dk.property.test;
+package jp.co.dk.property;
 
 import static org.junit.Assert.*;
 

@@ -1,4 +1,4 @@
-package jp.co.dk.property.test;
+package jp.co.dk.property;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

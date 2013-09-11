@@ -17,7 +17,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
  * @version 1.0
  * @author D.Kanno
  */
-class PropertiesFile implements Properties{
+public class PropertiesFile implements Properties{
 	
 	private String propertyFile;
 	
@@ -31,7 +31,7 @@ class PropertiesFile implements Properties{
 	 * @param propertyFile プロパティファイルパス
 	 * @throws PropertyException 指定のプロパティファイルパスにファイルが存在しなかった場合
 	 */
-	PropertiesFile(String propertyFile) throws PropertyException{
+	public PropertiesFile(String propertyFile) throws PropertyException{
 		this.propertyFile = propertyFile;
 		try {
 			this.configure = new PropertiesConfiguration(propertyFile);

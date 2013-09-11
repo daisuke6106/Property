@@ -1,4 +1,4 @@
-package jp.co.dk.property.test;
+package jp.co.dk.property;
 
 import java.io.File;
 import java.math.BigDecimal;
