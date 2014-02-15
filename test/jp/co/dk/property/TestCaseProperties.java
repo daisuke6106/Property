@@ -134,9 +134,9 @@ public class TestCaseProperties {
 			fail();
 		} catch (PropertyConversionException e) {}
 		
-		assertTrue(TestProperty.FLOAT_MIN.getFloat() == 1.4E-45);
+		assertTrue(TestProperty.FLOAT_MIN.getFloat() == Float.MIN_VALUE);
 		
-		assertTrue(TestProperty.FLOAT_MAX.getFloat() == 3.4028235E38);
+		assertTrue(TestProperty.FLOAT_MAX.getFloat() == Float.MAX_VALUE);
 		
 		try {
 			TestProperty.FLOAT_ERROR.getFloat();

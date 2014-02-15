@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.2" sequence="0" timestamp="1392477208839" analysisTimestamp="1392477208949" release="">
+  <Project projectName="">
+    <Jar>/home/dk/projects/Property/property.jar</Jar>
+    <AuxClasspathEntry>/home/dk/projects/Property/lib/commons-configuration-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/dk/projects/Property/lib/commons-lang-2.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/dk/projects/Property/lib/commons-logging-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/dk/projects/Property/lib/test/testtemplate_all.jar</AuxClasspathEntry>
+    <SrcDir>/home/dk/projects/Property/src</SrcDir>
+  </Project>
+  <BugInstance type="DM_BOOLEAN_CTOR" priority="2" abbrev="Dm" category="PERFORMANCE">
+    <Class classname="jp.co.dk.property.AbstractProperty">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="111" end="616" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Class>
+    <Method classname="jp.co.dk.property.AbstractProperty" name="&lt;init&gt;" signature="(Ljava/io/File;Ljava/lang/String;Z)V" isStatic="false">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="259" end="261" startBytecode="0" endBytecode="98" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Method>
+    <SourceLine classname="jp.co.dk.property.AbstractProperty" start="260" end="260" startBytecode="12" endBytecode="12" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+  </BugInstance>
+  <BugInstance type="DM_BOOLEAN_CTOR" priority="2" abbrev="Dm" category="PERFORMANCE">
+    <Class classname="jp.co.dk.property.AbstractProperty">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="111" end="616" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Class>
+    <Method classname="jp.co.dk.property.AbstractProperty" name="&lt;init&gt;" signature="(Ljava/lang/String;Z)V" isStatic="false">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="126" end="128" startBytecode="0" endBytecode="87" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Method>
+    <SourceLine classname="jp.co.dk.property.AbstractProperty" start="127" end="127" startBytecode="11" endBytecode="11" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
+    <Class classname="jp.co.dk.property.AbstractProperty">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="111" end="616" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Class>
+    <Method classname="jp.co.dk.property.AbstractProperty" name="&lt;init&gt;" signature="(Ljava/io/File;Ljava/lang/String;B)V" isStatic="false">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="273" end="275" startBytecode="0" endBytecode="98" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Method>
+    <Method classname="java.lang.Byte" name="&lt;init&gt;" signature="(B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Byte" start="297" end="299" startBytecode="0" endBytecode="41" sourcefile="Byte.java" sourcepath="java/lang/Byte.java"/>
+    </Method>
+    <Method classname="java.lang.Byte" name="valueOf" signature="(B)V" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Byte" sourcefile="Byte.java" sourcepath="java/lang/Byte.java"/>
+    </Method>
+    <SourceLine classname="jp.co.dk.property.AbstractProperty" start="274" end="274" startBytecode="12" endBytecode="12" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
+    <Class classname="jp.co.dk.property.AbstractProperty">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="111" end="616" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Class>
+    <Method classname="jp.co.dk.property.AbstractProperty" name="&lt;init&gt;" signature="(Ljava/io/File;Ljava/lang/String;I)V" isStatic="false">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="315" end="317" startBytecode="0" endBytecode="98" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer" start="659" end="661" startBytecode="0" endBytecode="41" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)V" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Integer" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="jp.co.dk.property.AbstractProperty" start="316" end="316" startBytecode="12" endBytecode="12" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
+    <Class classname="jp.co.dk.property.AbstractProperty">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="111" end="616" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Class>
+    <Method classname="jp.co.dk.property.AbstractProperty" name="&lt;init&gt;" signature="(Ljava/io/File;Ljava/lang/String;J)V" isStatic="false">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="329" end="331" startBytecode="0" endBytecode="98" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Method>
+    <Method classname="java.lang.Long" name="&lt;init&gt;" signature="(J)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Long" start="684" end="686" startBytecode="0" endBytecode="41" sourcefile="Long.java" sourcepath="java/lang/Long.java"/>
+    </Method>
+    <Method classname="java.lang.Long" name="valueOf" signature="(J)V" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Long" sourcefile="Long.java" sourcepath="java/lang/Long.java"/>
+    </Method>
+    <SourceLine classname="jp.co.dk.property.AbstractProperty" start="330" end="330" startBytecode="12" endBytecode="12" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
+    <Class classname="jp.co.dk.property.AbstractProperty">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="111" end="616" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Class>
+    <Method classname="jp.co.dk.property.AbstractProperty" name="&lt;init&gt;" signature="(Ljava/io/File;Ljava/lang/String;S)V" isStatic="false">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="343" end="345" startBytecode="0" endBytecode="98" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Method>
+    <Method classname="java.lang.Short" name="&lt;init&gt;" signature="(S)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Short" start="302" end="304" startBytecode="0" endBytecode="41" sourcefile="Short.java" sourcepath="java/lang/Short.java"/>
+    </Method>
+    <Method classname="java.lang.Short" name="valueOf" signature="(S)V" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Short" sourcefile="Short.java" sourcepath="java/lang/Short.java"/>
+    </Method>
+    <SourceLine classname="jp.co.dk.property.AbstractProperty" start="344" end="344" startBytecode="12" endBytecode="12" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
+    <Class classname="jp.co.dk.property.AbstractProperty">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="111" end="616" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Class>
+    <Method classname="jp.co.dk.property.AbstractProperty" name="&lt;init&gt;" signature="(Ljava/lang/String;B)V" isStatic="false">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="139" end="141" startBytecode="0" endBytecode="87" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Method>
+    <Method classname="java.lang.Byte" name="&lt;init&gt;" signature="(B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Byte" start="297" end="299" startBytecode="0" endBytecode="41" sourcefile="Byte.java" sourcepath="java/lang/Byte.java"/>
+    </Method>
+    <Method classname="java.lang.Byte" name="valueOf" signature="(B)V" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Byte" sourcefile="Byte.java" sourcepath="java/lang/Byte.java"/>
+    </Method>
+    <SourceLine classname="jp.co.dk.property.AbstractProperty" start="140" end="140" startBytecode="11" endBytecode="11" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
+    <Class classname="jp.co.dk.property.AbstractProperty">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="111" end="616" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Class>
+    <Method classname="jp.co.dk.property.AbstractProperty" name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" isStatic="false">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="178" end="180" startBytecode="0" endBytecode="87" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer" start="659" end="661" startBytecode="0" endBytecode="41" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)V" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Integer" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="jp.co.dk.property.AbstractProperty" start="179" end="179" startBytecode="11" endBytecode="11" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
+    <Class classname="jp.co.dk.property.AbstractProperty">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="111" end="616" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Class>
+    <Method classname="jp.co.dk.property.AbstractProperty" name="&lt;init&gt;" signature="(Ljava/lang/String;J)V" isStatic="false">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="191" end="193" startBytecode="0" endBytecode="87" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Method>
+    <Method classname="java.lang.Long" name="&lt;init&gt;" signature="(J)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Long" start="684" end="686" startBytecode="0" endBytecode="41" sourcefile="Long.java" sourcepath="java/lang/Long.java"/>
+    </Method>
+    <Method classname="java.lang.Long" name="valueOf" signature="(J)V" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Long" sourcefile="Long.java" sourcepath="java/lang/Long.java"/>
+    </Method>
+    <SourceLine classname="jp.co.dk.property.AbstractProperty" start="192" end="192" startBytecode="11" endBytecode="11" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
+    <Class classname="jp.co.dk.property.AbstractProperty">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="111" end="616" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Class>
+    <Method classname="jp.co.dk.property.AbstractProperty" name="&lt;init&gt;" signature="(Ljava/lang/String;S)V" isStatic="false">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="204" end="206" startBytecode="0" endBytecode="87" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Method>
+    <Method classname="java.lang.Short" name="&lt;init&gt;" signature="(S)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Short" start="302" end="304" startBytecode="0" endBytecode="41" sourcefile="Short.java" sourcepath="java/lang/Short.java"/>
+    </Method>
+    <Method classname="java.lang.Short" name="valueOf" signature="(S)V" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Short" sourcefile="Short.java" sourcepath="java/lang/Short.java"/>
+    </Method>
+    <SourceLine classname="jp.co.dk.property.AbstractProperty" start="205" end="205" startBytecode="11" endBytecode="11" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+  </BugInstance>
+  <BugInstance type="DM_STRING_CTOR" priority="2" abbrev="Dm" category="PERFORMANCE">
+    <Class classname="jp.co.dk.property.AbstractProperty">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="111" end="616" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Class>
+    <Method classname="jp.co.dk.property.AbstractProperty" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="jp.co.dk.property.AbstractProperty" start="230" end="232" startBytecode="0" endBytecode="87" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+    </Method>
+    <SourceLine classname="jp.co.dk.property.AbstractProperty" start="231" end="231" startBytecode="11" endBytecode="11" sourcefile="AbstractProperty.java" sourcepath="jp/co/dk/property/AbstractProperty.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" abbrev="IL" category="CORRECTNESS">
+    <Class classname="jp.co.dk.property.PropertiesFile">
+      <SourceLine classname="jp.co.dk.property.PropertiesFile" start="34" end="243" sourcefile="PropertiesFile.java" sourcepath="jp/co/dk/property/PropertiesFile.java"/>
+    </Class>
+    <Method classname="jp.co.dk.property.PropertiesFile" name="setProperty" signature="(Ljava/lang/String;Ljava/lang/Object;)V" isStatic="false">
+      <SourceLine classname="jp.co.dk.property.PropertiesFile" start="63" end="64" startBytecode="0" endBytecode="72" sourcefile="PropertiesFile.java" sourcepath="jp/co/dk/property/PropertiesFile.java"/>
+    </Method>
+    <SourceLine classname="jp.co.dk.property.PropertiesFile" start="63" end="63" startBytecode="3" endBytecode="3" sourcefile="PropertiesFile.java" sourcepath="jp/co/dk/property/PropertiesFile.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 16 Feb 2014 00:13:28 +0900" total_classes="10" referenced_classes="64" total_bugs="12" total_size="426" num_packages="2" vm_version="22.0-b10" cpu_seconds="17.24" clock_seconds="11.26" peak_mbytes="117.92" alloc_mbytes="780.50" gc_seconds="0.11" priority_2="11" priority_1="1">
+    <PackageStats package="jp.co.dk.property" total_bugs="12" total_types="7" total_size="397" priority_2="11" priority_1="1">
+      <ClassStats class="jp.co.dk.property.AbstractProperty" sourceFile="AbstractProperty.java" interface="false" size="221" bugs="11" priority_2="11"/>
+      <ClassStats class="jp.co.dk.property.Properties" sourceFile="Properties.java" interface="true" size="41" bugs="0"/>
+      <ClassStats class="jp.co.dk.property.PropertiesFile" sourceFile="PropertiesFile.java" interface="false" size="98" bugs="1" priority_1="1"/>
+      <ClassStats class="jp.co.dk.property.Property" sourceFile="Property.java" interface="true" size="14" bugs="0"/>
+      <ClassStats class="jp.co.dk.property.PropertyFlyweight" sourceFile="PropertyFlyweight.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="jp.co.dk.property.TmpProperty" sourceFile="AbstractProperty.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="jp.co.dk.property.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="jp.co.dk.property.exception" total_bugs="0" total_types="3" total_size="29">
+      <ClassStats class="jp.co.dk.property.exception.PropertyConversionException" sourceFile="PropertyConversionException.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="jp.co.dk.property.exception.PropertyException" sourceFile="PropertyException.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="jp.co.dk.property.exception.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1392" invocations="508" avgMicrosecondsPerInvocation="2740" maxMicrosecondsPerInvocation="79603" standardDeviationMircosecondsPerInvocation="7949"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="888" invocations="64" avgMicrosecondsPerInvocation="13889" maxMicrosecondsPerInvocation="132524" standardDeviationMircosecondsPerInvocation="25527"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="490" invocations="64" avgMicrosecondsPerInvocation="7661" maxMicrosecondsPerInvocation="40808" standardDeviationMircosecondsPerInvocation="11354"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="432" invocations="99" avgMicrosecondsPerInvocation="4368" maxMicrosecondsPerInvocation="24899" standardDeviationMircosecondsPerInvocation="5924"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="377" invocations="99" avgMicrosecondsPerInvocation="3818" maxMicrosecondsPerInvocation="20178" standardDeviationMircosecondsPerInvocation="5164"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="370" invocations="18" avgMicrosecondsPerInvocation="20602" maxMicrosecondsPerInvocation="367236" standardDeviationMircosecondsPerInvocation="84072"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="367" invocations="309" avgMicrosecondsPerInvocation="1188" maxMicrosecondsPerInvocation="13610" standardDeviationMircosecondsPerInvocation="1918"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="307" invocations="87" avgMicrosecondsPerInvocation="3530" maxMicrosecondsPerInvocation="26196" standardDeviationMircosecondsPerInvocation="5204"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="304" invocations="87" avgMicrosecondsPerInvocation="3496" maxMicrosecondsPerInvocation="28616" standardDeviationMircosecondsPerInvocation="5445"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="303" invocations="87" avgMicrosecondsPerInvocation="3493" maxMicrosecondsPerInvocation="24511" standardDeviationMircosecondsPerInvocation="4835"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="238" invocations="64" avgMicrosecondsPerInvocation="3722" maxMicrosecondsPerInvocation="40009" standardDeviationMircosecondsPerInvocation="5995"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="237" invocations="87" avgMicrosecondsPerInvocation="2732" maxMicrosecondsPerInvocation="26098" standardDeviationMircosecondsPerInvocation="4147"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="220" invocations="86" avgMicrosecondsPerInvocation="2568" maxMicrosecondsPerInvocation="15717" standardDeviationMircosecondsPerInvocation="3895"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="209" invocations="64" avgMicrosecondsPerInvocation="3273" maxMicrosecondsPerInvocation="25265" standardDeviationMircosecondsPerInvocation="6134"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="207" invocations="64" avgMicrosecondsPerInvocation="3237" maxMicrosecondsPerInvocation="20202" standardDeviationMircosecondsPerInvocation="5104"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="190" invocations="64" avgMicrosecondsPerInvocation="2979" maxMicrosecondsPerInvocation="54695" standardDeviationMircosecondsPerInvocation="10760"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="173" invocations="78" avgMicrosecondsPerInvocation="2225" maxMicrosecondsPerInvocation="46307" standardDeviationMircosecondsPerInvocation="5689"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="166" invocations="469" avgMicrosecondsPerInvocation="355" maxMicrosecondsPerInvocation="10215" standardDeviationMircosecondsPerInvocation="1085"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="140" invocations="64" avgMicrosecondsPerInvocation="2197" maxMicrosecondsPerInvocation="12419" standardDeviationMircosecondsPerInvocation="3349"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="137" invocations="511" avgMicrosecondsPerInvocation="269" maxMicrosecondsPerInvocation="8359" standardDeviationMircosecondsPerInvocation="850"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="137" invocations="140" avgMicrosecondsPerInvocation="981" maxMicrosecondsPerInvocation="84698" standardDeviationMircosecondsPerInvocation="7253"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="109" invocations="64" avgMicrosecondsPerInvocation="1717" maxMicrosecondsPerInvocation="15571" standardDeviationMircosecondsPerInvocation="2980"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="104" invocations="64" avgMicrosecondsPerInvocation="1629" maxMicrosecondsPerInvocation="11288" standardDeviationMircosecondsPerInvocation="2774"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

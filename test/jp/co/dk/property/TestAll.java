@@ -5,5 +5,5 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ TestCaseProperties.class, TestProperty.class })
+@SuiteClasses({ TestCaseProperties.class })
 public class TestAll {}
