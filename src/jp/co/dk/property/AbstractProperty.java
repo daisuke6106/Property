@@ -124,7 +124,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (String key, boolean defaltValue) throws PropertyException {
 		this(key);
-		this.defaltValue = new Boolean(defaltValue);
+		this.defaltValue = Boolean.valueOf(defaltValue);
 	}
 	
 	/**
@@ -137,7 +137,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (String key, byte defaltValue) throws PropertyException {
 		this(key);
-		this.defaltValue = new Byte(defaltValue);
+		this.defaltValue = Byte.valueOf(defaltValue);
 	}
 	
 	/**
@@ -150,7 +150,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (String key, double defaltValue) throws PropertyException {
 		this(key);
-		this.defaltValue = new Double(defaltValue);
+		this.defaltValue = Double.valueOf(defaltValue);
 	}
 	
 	/**
@@ -163,7 +163,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (String key, float defaltValue) throws PropertyException {
 		this(key);
-		this.defaltValue = new Float(defaltValue);
+		this.defaltValue = Float.valueOf(defaltValue);
 	}
 	
 	/**
@@ -176,7 +176,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (String key, int defaltValue) throws PropertyException {
 		this(key);
-		this.defaltValue = new Integer(defaltValue);
+		this.defaltValue = Integer.valueOf(defaltValue);
 	}
 	
 	/**
@@ -189,7 +189,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (String key, long defaltValue) throws PropertyException {
 		this(key);
-		this.defaltValue = new Long(defaltValue);
+		this.defaltValue = Long.valueOf(defaltValue);
 	}
 	
 	/**
@@ -202,7 +202,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (String key, short defaltValue) throws PropertyException {
 		this(key);
-		this.defaltValue = new Short(defaltValue);
+		this.defaltValue = Short.valueOf(defaltValue);
 	}
 	
 	/**
@@ -228,7 +228,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (String key, String defaltValue) throws PropertyException {
 		this(key);
-		this.defaltValue = new String(defaltValue);
+		this.defaltValue = defaltValue;
 	}
 	
 	/**
@@ -257,7 +257,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (File file, String key, boolean defaltValue) throws PropertyException {
 		this(file, key);
-		this.defaltValue = new Boolean(defaltValue);
+		this.defaltValue = Boolean.valueOf(defaltValue);
 	}
 	
 	/**
@@ -271,7 +271,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (File file, String key, byte defaltValue) throws PropertyException {
 		this(file, key);
-		this.defaltValue = new Byte(defaltValue);
+		this.defaltValue = Byte.valueOf(defaltValue);
 	}
 	
 	/**
@@ -285,7 +285,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (File file, String key, double defaltValue) throws PropertyException {
 		this(file, key);
-		this.defaltValue = new Double(defaltValue);
+		this.defaltValue = Double.valueOf(defaltValue);
 	}
 	
 	/**
@@ -299,7 +299,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (File file, String key, float defaltValue) throws PropertyException {
 		this(file, key);
-		this.defaltValue = new Float(defaltValue);
+		this.defaltValue = Float.valueOf(defaltValue);
 	}
 	
 	/**
@@ -313,7 +313,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (File file, String key, int defaltValue) throws PropertyException {
 		this(file, key);
-		this.defaltValue = new Integer(defaltValue);
+		this.defaltValue = Integer.valueOf(defaltValue);
 	}
 	
 	/**
@@ -327,7 +327,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (File file, String key, long defaltValue) throws PropertyException {
 		this(file, key);
-		this.defaltValue = new Long(defaltValue);
+		this.defaltValue = Long.valueOf(defaltValue);
 	}
 	
 	/**
@@ -341,7 +341,7 @@ public abstract class AbstractProperty implements Property {
 	 */
 	protected AbstractProperty (File file, String key, short defaltValue) throws PropertyException {
 		this(file, key);
-		this.defaltValue = new Short(defaltValue);
+		this.defaltValue = Short.valueOf(defaltValue);
 	}
 	
 	/**

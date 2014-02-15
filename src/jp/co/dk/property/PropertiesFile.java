@@ -60,7 +60,7 @@ public class PropertiesFile implements Properties{
 	
 	@Override
 	public void setProperty(java.lang.String key, java.lang.Object value) {
-		this.setProperty(key, value);
+		this.configure.setProperty(key, value);
 	}
 	
 	@Override
