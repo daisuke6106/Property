@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JMockit Coverage Report - Properties.java</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+  <link rel='stylesheet' type='text/css' href='../../../../coverage.css'/>
+  <script type='text/javascript' src='../../../../coverage.js'></script>
+  <script type='text/javascript' src='../../../../prettify.js'></script>
+</head>
+<body onload='prettyPrint()'>
+  <table cellpadding='0' cellspacing='1'>
+    <caption>Property/src/jp/co/dk/property/Properties.java</caption>
+    <tr>
+      <td class='line'>1</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>package jp.co.dk.property;</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td><pre class='imports prettyprint' onclick='showHideLines(this)'><div>import java.util.Iterator;
+</div><span>import ...</span></pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>/**
+ * 
+ * Propertiesは、プロパティへの操作を行うクラスが実装するインターフェースです。&lt;p>
+ * &lt;br>
+ * 
+ * @version 1.0
+ * @author D.Kanno
+ */</div><span>/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>13</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>public interface Properties {</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * プロパティに何も定義されていない場合、trueを返します。
+	 * 
+	 * @return プロパティ定義有無
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>20</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public boolean isEmpty();</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーが定義されているかを検証します。&lt;br>
+	 * プロパティが定義されている場合、trueを返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティキー定義の有無
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>29</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public boolean containsKey(java.lang.String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーにてプロパティ値を追加します。&lt;br>
+	 * 
+	 * @param key プロパティキー
+	 * @param value プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>37</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void addProperty(java.lang.String key, java.lang.Object value);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーにてプロパティ値を設定します。&lt;br>
+	 * 
+	 * @param key プロパティキー
+	 * @param value プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>45</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void setProperty(java.lang.String key, java.lang.Object value);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーを削除します。&lt;br>
+	 * 
+	 * @param key プロパティキー
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>52</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void clearProperty(java.lang.String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 定義されているプロパティをすべて削除します。&lt;br>
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>57</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void clear();</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーを削除します。&lt;br>
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>65</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public Object getProperty(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで始まるプロパティキー一覧を取得します。&lt;br>
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティキー一覧
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>73</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public Iterator&lt;String> getKeys(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 定義されているすべてのプロパティキー一覧を取得します。&lt;br>
+	 * 
+	 * @return プロパティキー一覧
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>80</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public Iterator&lt;String> getKeys();</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 定義されているすべてのプロパティキー一覧を取得します。&lt;br>
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティキー一覧
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>88</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public java.util.Properties getProperties(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を boolean 型で取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>98</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public boolean getBoolean(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を boolean 型で取得します。&lt;br>
+	 * 存在しない場合は指定されたデフォルト値を取得します。
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>110</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public boolean getBoolean(String key, boolean defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を Boolean クラスで取得します。&lt;br>
+	 * 存在しない場合は指定されたデフォルト値を取得します。
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>122</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public Boolean getBoolean(String key, Boolean defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を byte 型で取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>132</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public byte getByte(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を byte 型で取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>143</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public byte getByte(String key, byte defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を Boolean クラスで取得します。&lt;br>
+	 * 存在しない場合は指定されたデフォルト値を取得します。
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>155</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public Byte getByte(String key, Byte defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を double 型で取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>165</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public double getDouble(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を double 型で取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>176</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public double getDouble(String key, double defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を Boolean クラスで取得します。&lt;br>
+	 * 存在しない場合は指定されたデフォルト値を取得します。
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>188</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public Double getDouble(String key, Double defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を float 型で取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>198</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public float getFloat(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を float 型で取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>209</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public float getFloat(String key, float defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を Boolean クラスで取得します。&lt;br>
+	 * 存在しない場合は指定されたデフォルト値を取得します。
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>221</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public Float getFloat(String key, Float defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を int 型で取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>231</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public int getInt(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を int 型で取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>242</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public int getInt(String key, int defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を Integer クラスで取得します。&lt;br>
+	 * 存在しない場合は指定されたデフォルト値を取得します。
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>254</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public Integer getInteger(String key, Integer defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を long 型で取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>264</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public long getLong(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を long 型で取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>275</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public long getLong(String key, long defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を Long クラスで取得します。&lt;br>
+	 * 存在しない場合は指定されたデフォルト値を取得します。
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>287</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public Long getLong(String key, Long defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を short 型で取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>297</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public short getShort(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を short 型で取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>308</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public short getShort(String key, short defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を Short クラスで取得します。&lt;br>
+	 * 存在しない場合は指定されたデフォルト値を取得します。
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>320</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public Short getShort(String key, Short defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を BigDecimal クラスで取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>330</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public java.math.BigDecimal getBigDecimal(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を BigDecimal クラスで取得します。&lt;br>
+	 * 存在しない場合は指定されたデフォルト値を取得します。
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>342</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public java.math.BigDecimal getBigDecimal(String key, java.math.BigDecimal defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を BigInteger クラスで取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>352</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public java.math.BigInteger getBigInteger(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を BigInteger クラスで取得します。&lt;br>
+	 * 存在しない場合は指定されたデフォルト値を取得します。
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>364</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public java.math.BigInteger getBigInteger(String key, java.math.BigInteger defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を String クラスで取得します。&lt;br>
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>374</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public String getString(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定のプロパティキーで定義されているプロパティ値を String クラスで取得します。&lt;br>
+	 * 存在しない場合は指定されたデフォルト値を取得します。
+	 * 
+	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値
+	 * @return プロパティ値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>386</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public String getString(String key, String defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定したプロパティキーに関連付けられた文字列の配列を取得します。&lt;br>
+	 * キーは既存のオブジェクトにマップされない場合は空の配列が返されます。&lt;br>
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティ値一覧
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>395</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public String[] getStringArray(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定したプロパティキーに関連付けられた文字列のリストを取得します。&lt;br>
+	 * キーは既存のオブジェクトにマップされない場合は、空リストが返されます。&lt;br>
+	 * 
+	 * @param key プロパティキー
+	 * @return プロパティ値一覧
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>404</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public java.util.List getList(String key);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * 指定したプロパティキーに関連付けられた文字列のリストを取得します。&lt;br>
+	 * キーは既存のオブジェクトにマップされない場合は、指定されたデフォルトのリストが返されます。&lt;br>
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルトのプロパティ値一覧
+	 * @return プロパティ値一覧
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>414</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public java.util.List getList(String key, java.util.List defaltValue);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>416</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>}</pre></td>
+    </tr>
+  </table>
+</body>
+</html>

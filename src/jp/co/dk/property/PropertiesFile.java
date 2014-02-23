@@ -19,9 +19,9 @@ import org.apache.commons.configuration.PropertiesConfiguration;
  */
 public class PropertiesFile implements Properties{
 	
-	private String propertyFile;
+	protected String propertyFile;
 	
-	private Configuration configure;
+	protected Configuration configure;
 	
 	/**
 	 * コンストラクタ<p>
