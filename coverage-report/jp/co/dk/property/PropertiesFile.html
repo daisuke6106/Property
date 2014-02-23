@@ -46,12 +46,12 @@ import org.apache.commons.configuration.PropertiesConfiguration;
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>22</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected String <span class='instance uncovered' title='Reads: 3 Writes: 8'>propertyFile</span>;</pre></td>
+      <td><pre class='prettyprint'>	protected String <span class='instance uncovered' title='Reads: 3 Writes: 16'>propertyFile</span>;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>24</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected Configuration <span class='instance covered' title='Reads: 13 Writes: 5'>configure</span>;</pre></td>
+      <td><pre class='prettyprint'>	protected Configuration <span class='instance covered' title='Reads: 28 Writes: 13'>configure</span>;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -66,11 +66,11 @@ import org.apache.commons.configuration.PropertiesConfiguration;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>34</td><td class='count'>8</td>
+      <td class='line'>34</td><td class='count'>16</td>
       <td><pre class='prettyprint covered' id='l34s0'>	public PropertiesFile(String propertyFile) throws PropertyException{</pre></td>
     </tr>
     <tr>
-      <td class='line'>35</td><td class='count'>8</td>
+      <td class='line'>35</td><td class='count'>16</td>
       <td><pre class='prettyprint covered' id='l35s0'>		this.propertyFile = propertyFile;</pre></td>
     </tr>
     <tr>
@@ -78,7 +78,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>		try {</pre></td>
     </tr>
     <tr>
-      <td class='line'>37</td><td class='count'>8</td>
+      <td class='line'>37</td><td class='count'>16</td>
       <td><pre class='prettyprint covered' id='l37s0'>			this.configure = new PropertiesConfiguration(propertyFile);</pre></td>
     </tr>
     <tr>
@@ -106,7 +106,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>		}</pre></td>
     </tr>
     <tr>
-      <td class='line'>44</td><td class='count'>5</td>
+      <td class='line'>44</td><td class='count'>13</td>
       <td><pre class='prettyprint covered' id='l44s0'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -119,7 +119,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public boolean isEmpty() {</pre></td>
     </tr>
     <tr>
-      <td class='line'>48</td><td class='count'>2</td>
+      <td class='line'>48</td><td class='count'>3</td>
       <td><pre class='prettyprint covered' id='l48s0'>		return this.configure.isEmpty();</pre></td>
     </tr>
     <tr>
@@ -153,12 +153,12 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public void addProperty(java.lang.String key, java.lang.Object value) {</pre></td>
     </tr>
     <tr>
-      <td class='line'>58</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l58s0'>		this.configure.addProperty(key, value);</pre></td>
+      <td class='line'>58</td><td class='count'>2</td>
+      <td><pre class='prettyprint covered' id='l58s0'>		this.configure.addProperty(key, value);</pre></td>
     </tr>
     <tr>
-      <td class='line'>59</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l59s0'>	}</pre></td>
+      <td class='line'>59</td><td class='count'>2</td>
+      <td><pre class='prettyprint covered' id='l59s0'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -170,12 +170,12 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public void setProperty(java.lang.String key, java.lang.Object value) {</pre></td>
     </tr>
     <tr>
-      <td class='line'>63</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l63s0'>		this.configure.setProperty(key, value);</pre></td>
+      <td class='line'>63</td><td class='count'>2</td>
+      <td><pre class='prettyprint covered' id='l63s0'>		this.configure.setProperty(key, value);</pre></td>
     </tr>
     <tr>
-      <td class='line'>64</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l64s0'>	}</pre></td>
+      <td class='line'>64</td><td class='count'>2</td>
+      <td><pre class='prettyprint covered' id='l64s0'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -187,12 +187,12 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public void clearProperty(java.lang.String key) {</pre></td>
     </tr>
     <tr>
-      <td class='line'>68</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l68s0'>		this.configure.clearProperty(key);</pre></td>
+      <td class='line'>68</td><td class='count'>2</td>
+      <td><pre class='prettyprint covered' id='l68s0'>		this.configure.clearProperty(key);</pre></td>
     </tr>
     <tr>
-      <td class='line'>69</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l69s0'>	}</pre></td>
+      <td class='line'>69</td><td class='count'>2</td>
+      <td><pre class='prettyprint covered' id='l69s0'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -204,12 +204,12 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public void clear() {</pre></td>
     </tr>
     <tr>
-      <td class='line'>73</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l73s0'>		this.configure.clear();</pre></td>
+      <td class='line'>73</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l73s0'>		this.configure.clear();</pre></td>
     </tr>
     <tr>
-      <td class='line'>74</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l74s0'>	}</pre></td>
+      <td class='line'>74</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l74s0'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -221,8 +221,8 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public Object getProperty(String key) {</pre></td>
     </tr>
     <tr>
-      <td class='line'>78</td><td class='count'>0</td>
-      <td><pre class='prettyprint uncovered' id='l78s0'>		return this.configure.getProperty(key);</pre></td>
+      <td class='line'>78</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l78s0'>		return this.configure.getProperty(key);</pre></td>
     </tr>
     <tr>
       <td class='line'>79</td><td>&nbsp;</td>
@@ -714,7 +714,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public String getString(String key)  {</pre></td>
     </tr>
     <tr>
-      <td class='line'>223</td><td class='count'>6</td>
+      <td class='line'>223</td><td class='count'>12</td>
       <td><pre class='prettyprint covered' id='l223s0'>		return this.configure.getString(key);</pre></td>
     </tr>
     <tr>
