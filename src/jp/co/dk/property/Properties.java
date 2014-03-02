@@ -1,6 +1,7 @@
 package jp.co.dk.property;
 
 import java.util.Iterator;
+import java.util.List;
 
 /**
  * 
@@ -70,22 +71,14 @@ public interface Properties {
 	 * @param key プロパティキー
 	 * @return プロパティキー一覧
 	 */
-	public Iterator<String> getKeys(String key);
+	public List<String> getKeys(String key);
 	
 	/**
 	 * 定義されているすべてのプロパティキー一覧を取得します。<br>
 	 * 
 	 * @return プロパティキー一覧
 	 */
-	public Iterator<String> getKeys();
-	
-	/**
-	 * 定義されているすべてのプロパティキー一覧を取得します。<br>
-	 * 
-	 * @param key プロパティキー
-	 * @return プロパティキー一覧
-	 */
-	public java.util.Properties getProperties(String key);
+	public List<String> getKeys();
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を boolean 型で取得します。<br>
@@ -110,18 +103,6 @@ public interface Properties {
 	public boolean getBoolean(String key, boolean defaltValue);
 	
 	/**
-	 * 指定のプロパティキーで定義されているプロパティ値を Boolean クラスで取得します。<br>
-	 * 存在しない場合は指定されたデフォルト値を取得します。
-	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
-	 * 
-	 * @param key プロパティキー
-	 * @param defaltValue デフォルトのプロパティ値
-	 * @return プロパティ値
-	 */
-	public Boolean getBoolean(String key, Boolean defaltValue);
-	
-	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を byte 型で取得します。<br>
 	 * 
 	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
@@ -141,18 +122,6 @@ public interface Properties {
 	 * @return プロパティ値
 	 */
 	public byte getByte(String key, byte defaltValue);
-	
-	/**
-	 * 指定のプロパティキーで定義されているプロパティ値を Boolean クラスで取得します。<br>
-	 * 存在しない場合は指定されたデフォルト値を取得します。
-	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
-	 * 
-	 * @param key プロパティキー
-	 * @param defaltValue デフォルトのプロパティ値
-	 * @return プロパティ値
-	 */
-	public Byte getByte(String key, Byte defaltValue);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を double 型で取得します。<br>
@@ -176,18 +145,6 @@ public interface Properties {
 	public double getDouble(String key, double defaltValue);
 	
 	/**
-	 * 指定のプロパティキーで定義されているプロパティ値を Boolean クラスで取得します。<br>
-	 * 存在しない場合は指定されたデフォルト値を取得します。
-	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
-	 * 
-	 * @param key プロパティキー
-	 * @param defaltValue デフォルトのプロパティ値
-	 * @return プロパティ値
-	 */
-	public Double getDouble(String key, Double defaltValue);
-	
-	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を float 型で取得します。<br>
 	 * 
 	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
@@ -207,18 +164,6 @@ public interface Properties {
 	 * @return プロパティ値
 	 */
 	public float getFloat(String key, float defaltValue);
-	
-	/**
-	 * 指定のプロパティキーで定義されているプロパティ値を Boolean クラスで取得します。<br>
-	 * 存在しない場合は指定されたデフォルト値を取得します。
-	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
-	 * 
-	 * @param key プロパティキー
-	 * @param defaltValue デフォルトのプロパティ値
-	 * @return プロパティ値
-	 */
-	public Float getFloat(String key, Float defaltValue);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を int 型で取得します。<br>
@@ -242,18 +187,6 @@ public interface Properties {
 	public int getInt(String key, int defaltValue);
 	
 	/**
-	 * 指定のプロパティキーで定義されているプロパティ値を Integer クラスで取得します。<br>
-	 * 存在しない場合は指定されたデフォルト値を取得します。
-	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
-	 * 
-	 * @param key プロパティキー
-	 * @param defaltValue デフォルトのプロパティ値
-	 * @return プロパティ値
-	 */
-	public Integer getInteger(String key, Integer defaltValue);
-	
-	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を long 型で取得します。<br>
 	 * 
 	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
@@ -273,18 +206,6 @@ public interface Properties {
 	 * @return プロパティ値
 	 */
 	public long getLong(String key, long defaltValue);
-	
-	/**
-	 * 指定のプロパティキーで定義されているプロパティ値を Long クラスで取得します。<br>
-	 * 存在しない場合は指定されたデフォルト値を取得します。
-	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
-	 * 
-	 * @param key プロパティキー
-	 * @param defaltValue デフォルトのプロパティ値
-	 * @return プロパティ値
-	 */
-	public Long getLong(String key, Long defaltValue);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を short 型で取得します。<br>
@@ -308,18 +229,6 @@ public interface Properties {
 	public short getShort(String key, short defaltValue);
 	
 	/**
-	 * 指定のプロパティキーで定義されているプロパティ値を Short クラスで取得します。<br>
-	 * 存在しない場合は指定されたデフォルト値を取得します。
-	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
-	 * 
-	 * @param key プロパティキー
-	 * @param defaltValue デフォルトのプロパティ値
-	 * @return プロパティ値
-	 */
-	public Short getShort(String key, Short defaltValue);
-	
-	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を BigDecimal クラスで取得します。<br>
 	 * 
 	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
@@ -340,28 +249,6 @@ public interface Properties {
 	 * @return プロパティ値
 	 */
 	public java.math.BigDecimal getBigDecimal(String key, java.math.BigDecimal defaltValue);
-	
-	/**
-	 * 指定のプロパティキーで定義されているプロパティ値を BigInteger クラスで取得します。<br>
-	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
-	 * 
-	 * @param key プロパティキー
-	 * @return プロパティ値
-	 */
-	public java.math.BigInteger getBigInteger(String key);
-	
-	/**
-	 * 指定のプロパティキーで定義されているプロパティ値を BigInteger クラスで取得します。<br>
-	 * 存在しない場合は指定されたデフォルト値を取得します。
-	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
-	 * 
-	 * @param key プロパティキー
-	 * @param defaltValue デフォルトのプロパティ値
-	 * @return プロパティ値
-	 */
-	public java.math.BigInteger getBigInteger(String key, java.math.BigInteger defaltValue);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を String クラスで取得します。<br>

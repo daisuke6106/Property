@@ -1,6 +1,8 @@
 package jp.co.dk.property;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 import jp.co.dk.property.exception.PropertyException;
 
@@ -79,18 +81,23 @@ public class PropertiesFile implements Properties{
 	}
 	
 	@Override
-	public Iterator<String> getKeys(String key) {
-		return this.configure.getKeys(key);
+	public List<String> getKeys(String key) {
+		List<String> keys    = new ArrayList<String>();
+		List<String> allKeys = getKeys();
+		for (String allKey : allKeys) {
+			if (allKey.startsWith(key)) keys.add(allKey);
+		}
+		return keys;
 	}
 	
 	@Override
-	public Iterator<String> getKeys() {
-		return this.configure.getKeys();
-	}
-	
-	@Override
-	public java.util.Properties getProperties(String key) {
-		return this.configure.getProperties(key);
+	public List<String> getKeys() {
+		List<String> keys = new ArrayList<String>();
+		Iterator<String> keysIterator = this.configure.getKeys();
+		while (keysIterator.hasNext()) {
+			keys.add(keysIterator.next());
+		}
+		return keys;
 	}
 	
 	@Override
@@ -100,11 +107,6 @@ public class PropertiesFile implements Properties{
 	
 	@Override
 	public boolean getBoolean(String key, boolean defaltValue)  {
-		return this.configure.getBoolean(key, defaltValue);
-	}
-	
-	@Override
-	public Boolean getBoolean(String key, Boolean defaltValue)  {
 		return this.configure.getBoolean(key, defaltValue);
 	}
 	
@@ -119,22 +121,12 @@ public class PropertiesFile implements Properties{
 	}
 	
 	@Override
-	public Byte getByte(String key, Byte defaltValue)  {
-		return this.configure.getByte(key, defaltValue);
-	}
-	
-	@Override
 	public double getDouble(String key)  {
 		return this.configure.getDouble(key);
 	}
 	
 	@Override
 	public double getDouble(String key, double defaltValue)  {
-		return this.configure.getDouble(key, defaltValue);
-	}
-	
-	@Override
-	public Double getDouble(String key, Double defaltValue)  {
 		return this.configure.getDouble(key, defaltValue);
 	}
 	
@@ -149,11 +141,6 @@ public class PropertiesFile implements Properties{
 	}
 	
 	@Override
-	public Float getFloat(String key, Float defaltValue)  {
-		return this.configure.getFloat(key, defaltValue);
-	}
-	
-	@Override
 	public int getInt(String key)  {
 		return this.configure.getInt(key);
 	}
@@ -164,22 +151,12 @@ public class PropertiesFile implements Properties{
 	}
 	
 	@Override
-	public Integer getInteger(String key, Integer defaltValue)  {
-		return this.configure.getInteger(key, defaltValue);
-	}
-	
-	@Override
 	public long getLong(String key)  {
 		return this.configure.getLong(key);
 	}
 	
 	@Override
 	public long getLong(String key, long defaltValue)  {
-		return this.configure.getLong(key, defaltValue);
-	}
-	
-	@Override
-	public Long getLong(String key, Long defaltValue)  {
 		return this.configure.getLong(key, defaltValue);
 	}
 	
@@ -194,28 +171,19 @@ public class PropertiesFile implements Properties{
 	}
 	
 	@Override
-	public Short getShort(String key, Short defaltValue)  {
-		return this.configure.getShort(key, defaltValue);
-	}
-	
-	@Override
 	public java.math.BigDecimal getBigDecimal(String key)  {
-		return this.configure.getBigDecimal(key);
+		java.math.BigDecimal value = this.configure.getBigDecimal(key);
+		if (value == null) {
+			StringBuilder message = new StringBuilder("'");
+			message.append(key).append("' doesn't map to an existing object");
+			throw new java.util.NoSuchElementException(message.toString());
+		}
+		return value;
 	}
 	
 	@Override
 	public java.math.BigDecimal getBigDecimal(String key, java.math.BigDecimal defaltValue)  {
 		return this.configure.getBigDecimal(key, defaltValue);
-	}
-	
-	@Override
-	public java.math.BigInteger getBigInteger(String key)  {
-		return this.configure.getBigInteger(key);
-	}
-	
-	@Override
-	public java.math.BigInteger getBigInteger(String key, java.math.BigInteger defaltValue)  {
-		return this.configure.getBigInteger(key, defaltValue);
 	}
 	
 	@Override

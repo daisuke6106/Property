@@ -608,10 +608,9 @@ public abstract class AbstractProperty implements Property {
 	@Override
 	public java.util.List<Property> getPropertyList(){
 		List<Property> propertyList = new ArrayList<Property>();
-		Iterator<String> keysIterator = this.properties.getKeys();
-		while (keysIterator.hasNext()) {
-			String fullKey = keysIterator.next();
-			if (fullKey.startsWith(this.key)) propertyList.add(new TmpProperty(this.file, fullKey, this.key));
+		List<String> keys = this.properties.getKeys(this.key);
+		for (String key : keys) {
+			propertyList.add(new TmpProperty(this.file, key, this.key));
 		}
 		return propertyList;
 	}
