@@ -1,6 +1,5 @@
 package jp.co.dk.property;
 
-import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -83,158 +82,187 @@ public interface Properties {
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を boolean 型で取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public boolean getBoolean(String key);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を boolean 型で取得します。<br>
-	 * 存在しない場合は指定されたデフォルト値を取得します。
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public boolean getBoolean(String key, boolean defaltValue);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を byte 型で取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public byte getByte(String key);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を byte 型で取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public byte getByte(String key, byte defaltValue);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を double 型で取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public double getDouble(String key);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を double 型で取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public double getDouble(String key, double defaltValue);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を float 型で取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること。
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public float getFloat(String key);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を float 型で取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public float getFloat(String key, float defaltValue);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を int 型で取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること。
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public int getInt(String key);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を int 型で取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public int getInt(String key, int defaltValue);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を long 型で取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること。
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public long getLong(String key);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を long 型で取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public long getLong(String key, long defaltValue);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を short 型で取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること。
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public short getShort(String key);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を short 型で取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public short getShort(String key, short defaltValue);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を BigDecimal クラスで取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること。
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public java.math.BigDecimal getBigDecimal(String key);
 	
@@ -242,18 +270,22 @@ public interface Properties {
 	 * 指定のプロパティキーで定義されているプロパティ値を BigDecimal クラスで取得します。<br>
 	 * 存在しない場合は指定されたデフォルト値を取得します。
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */
 	public java.math.BigDecimal getBigDecimal(String key, java.math.BigDecimal defaltValue);
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を String クラスで取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった場合、NULLが送出されること<br>
+	 * キーは定義されているが値が設定されていなかった場合、空文字が送出されること<br>
+	 * 値が定義されていた場合、その値が返却されること<br>
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
@@ -262,9 +294,10 @@ public interface Properties {
 	
 	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を String クラスで取得します。<br>
-	 * 存在しない場合は指定されたデフォルト値を取得します。
+	 * 存在しない場合は指定されたデフォルト値を取得します。<br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった場合、デフォルトが返却されること<br>
+	 * キーは定義されているが値が設定されていなかった場合、空文字が送出されること<br>
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
@@ -274,7 +307,9 @@ public interface Properties {
 	
 	/**
 	 * 指定したプロパティキーに関連付けられた文字列の配列を取得します。<br>
-	 * キーは既存のオブジェクトにマップされない場合は空の配列が返されます。<br>
+	 * 
+	 * キーが定義されていなかった場合、空の配列が返却されること
+	 * キーは定義されているが値が設定されていなかった場合、空文字が送出されること
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値一覧
@@ -283,7 +318,9 @@ public interface Properties {
 	
 	/**
 	 * 指定したプロパティキーに関連付けられた文字列のリストを取得します。<br>
-	 * キーは既存のオブジェクトにマップされない場合は、空リストが返されます。<br>
+	 * 
+	 * キーが定義されていなかった場合、空の配列が返却されること<br>
+	 * キーは定義されているが値が設定されていなかった場合、空の配列が送出されること<br>
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値一覧
@@ -292,7 +329,9 @@ public interface Properties {
 	
 	/**
 	 * 指定したプロパティキーに関連付けられた文字列のリストを取得します。<br>
-	 * キーは既存のオブジェクトにマップされない場合は、指定されたデフォルトのリストが返されます。<br>
+	 * 
+	 * キーが定義されていなかった場合、デフォルトのリストが取得されること<br>
+	 * キーは定義されているが値が設定されていなかった場合、空の配列が送出されること<br>
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値一覧

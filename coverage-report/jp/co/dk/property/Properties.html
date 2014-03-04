@@ -17,8 +17,7 @@
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'></td><td>&nbsp;</td>
-      <td><pre class='imports prettyprint' onclick='showHideLines(this)'><div>import java.util.Iterator;
-import java.util.List;
+      <td><pre class='imports prettyprint' onclick='showHideLines(this)'><div>import java.util.List;
 </div><span>import ...</span></pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -34,7 +33,7 @@ import java.util.List;
  */</div><span>/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>14</td><td>&nbsp;</td>
+      <td class='line'>13</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>public interface Properties {</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -47,7 +46,7 @@ import java.util.List;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>21</td><td>&nbsp;</td>
+      <td class='line'>20</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public boolean isEmpty();</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -62,7 +61,7 @@ import java.util.List;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>30</td><td>&nbsp;</td>
+      <td class='line'>29</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public boolean containsKey(java.lang.String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -76,7 +75,7 @@ import java.util.List;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>38</td><td>&nbsp;</td>
+      <td class='line'>37</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public void addProperty(java.lang.String key, java.lang.Object value);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -90,7 +89,7 @@ import java.util.List;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>46</td><td>&nbsp;</td>
+      <td class='line'>45</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public void setProperty(java.lang.String key, java.lang.Object value);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -103,7 +102,7 @@ import java.util.List;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>53</td><td>&nbsp;</td>
+      <td class='line'>52</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public void clearProperty(java.lang.String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -114,7 +113,7 @@ import java.util.List;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>58</td><td>&nbsp;</td>
+      <td class='line'>57</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public void clear();</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -128,7 +127,7 @@ import java.util.List;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>66</td><td>&nbsp;</td>
+      <td class='line'>65</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public Object getProperty(String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -142,7 +141,7 @@ import java.util.List;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>74</td><td>&nbsp;</td>
+      <td class='line'>73</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public List&lt;String> getKeys(String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -155,7 +154,7 @@ import java.util.List;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>81</td><td>&nbsp;</td>
+      <td class='line'>80</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public List&lt;String> getKeys();</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -164,14 +163,16 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を boolean 型で取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>91</td><td>&nbsp;</td>
+      <td class='line'>92</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public boolean getBoolean(String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -179,17 +180,18 @@ import java.util.List;
       <td class='line'></td><td>&nbsp;</td>
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を boolean 型で取得します。&lt;br>
-	 * 存在しない場合は指定されたデフォルト値を取得します。
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>103</td><td>&nbsp;</td>
+      <td class='line'>105</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public boolean getBoolean(String key, boolean defaltValue);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -198,14 +200,16 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を byte 型で取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>113</td><td>&nbsp;</td>
+      <td class='line'>117</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public byte getByte(String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -214,15 +218,17 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を byte 型で取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>124</td><td>&nbsp;</td>
+      <td class='line'>130</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public byte getByte(String key, byte defaltValue);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -231,14 +237,16 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を double 型で取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>134</td><td>&nbsp;</td>
+      <td class='line'>142</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public double getDouble(String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -247,15 +255,17 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を double 型で取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>145</td><td>&nbsp;</td>
+      <td class='line'>155</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public double getDouble(String key, double defaltValue);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -264,14 +274,16 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を float 型で取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること。
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>155</td><td>&nbsp;</td>
+      <td class='line'>167</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public float getFloat(String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -280,15 +292,17 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を float 型で取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>166</td><td>&nbsp;</td>
+      <td class='line'>180</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public float getFloat(String key, float defaltValue);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -297,14 +311,16 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を int 型で取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること。
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>176</td><td>&nbsp;</td>
+      <td class='line'>192</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public int getInt(String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -313,15 +329,17 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を int 型で取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>187</td><td>&nbsp;</td>
+      <td class='line'>205</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public int getInt(String key, int defaltValue);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -330,14 +348,16 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を long 型で取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること。
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>197</td><td>&nbsp;</td>
+      <td class='line'>217</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public long getLong(String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -346,15 +366,17 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を long 型で取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>208</td><td>&nbsp;</td>
+      <td class='line'>230</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public long getLong(String key, long defaltValue);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -363,14 +385,16 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を short 型で取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること。
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>218</td><td>&nbsp;</td>
+      <td class='line'>242</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public short getShort(String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -379,15 +403,17 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を short 型で取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>229</td><td>&nbsp;</td>
+      <td class='line'>255</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public short getShort(String key, short defaltValue);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -396,14 +422,16 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を BigDecimal クラスで取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、例外が送出されること。
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>239</td><td>&nbsp;</td>
+      <td class='line'>267</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public java.math.BigDecimal getBigDecimal(String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -413,15 +441,17 @@ import java.util.List;
 	 * 指定のプロパティキーで定義されているプロパティ値を BigDecimal クラスで取得します。&lt;br>
 	 * 存在しない場合は指定されたデフォルト値を取得します。
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった、キーは定義されているが値が変換出来なかった場合、デフォルトが返却されること
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
 	 * @return プロパティ値
+	 * @throws java.util.NoSuchElementException キーが定義されていなかった場合
+	 * @throws org.apache.commons.configuration.ConversionException キーは定義されているが値が変換出来なかった場合
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>251</td><td>&nbsp;</td>
+      <td class='line'>281</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public java.math.BigDecimal getBigDecimal(String key, java.math.BigDecimal defaltValue);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -430,14 +460,16 @@ import java.util.List;
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を String クラスで取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった場合、NULLが送出されること&lt;br>
+	 * キーは定義されているが値が設定されていなかった場合、空文字が送出されること&lt;br>
+	 * 値が定義されていた場合、その値が返却されること&lt;br>
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>261</td><td>&nbsp;</td>
+      <td class='line'>293</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public String getString(String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -445,9 +477,10 @@ import java.util.List;
       <td class='line'></td><td>&nbsp;</td>
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定のプロパティキーで定義されているプロパティ値を String クラスで取得します。&lt;br>
-	 * 存在しない場合は指定されたデフォルト値を取得します。
+	 * 存在しない場合は指定されたデフォルト値を取得します。&lt;br>
 	 * 
-	 * プロパティに設定された値が変換できない値の場合は、例外を返却します。
+	 * キーが定義されていなかった場合、デフォルトが返却されること&lt;br>
+	 * キーは定義されているが値が設定されていなかった場合、空文字が送出されること&lt;br>
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値
@@ -455,7 +488,7 @@ import java.util.List;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>273</td><td>&nbsp;</td>
+      <td class='line'>306</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public String getString(String key, String defaltValue);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -463,14 +496,16 @@ import java.util.List;
       <td class='line'></td><td>&nbsp;</td>
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定したプロパティキーに関連付けられた文字列の配列を取得します。&lt;br>
-	 * キーは既存のオブジェクトにマップされない場合は空の配列が返されます。&lt;br>
+	 * 
+	 * キーが定義されていなかった場合、空の配列が返却されること
+	 * キーは定義されているが値が設定されていなかった場合、空文字が送出されること
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値一覧
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>282</td><td>&nbsp;</td>
+      <td class='line'>317</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public String[] getStringArray(String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -478,14 +513,16 @@ import java.util.List;
       <td class='line'></td><td>&nbsp;</td>
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定したプロパティキーに関連付けられた文字列のリストを取得します。&lt;br>
-	 * キーは既存のオブジェクトにマップされない場合は、空リストが返されます。&lt;br>
+	 * 
+	 * キーが定義されていなかった場合、空の配列が返却されること&lt;br>
+	 * キーは定義されているが値が設定されていなかった場合、空の配列が送出されること&lt;br>
 	 * 
 	 * @param key プロパティキー
 	 * @return プロパティ値一覧
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>291</td><td>&nbsp;</td>
+      <td class='line'>328</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public java.util.List getList(String key);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -493,7 +530,9 @@ import java.util.List;
       <td class='line'></td><td>&nbsp;</td>
       <td class='comment' onclick='showHideLines(this)'><div>	/**
 	 * 指定したプロパティキーに関連付けられた文字列のリストを取得します。&lt;br>
-	 * キーは既存のオブジェクトにマップされない場合は、指定されたデフォルトのリストが返されます。&lt;br>
+	 * 
+	 * キーが定義されていなかった場合、デフォルトのリストが取得されること&lt;br>
+	 * キーは定義されているが値が設定されていなかった場合、空の配列が送出されること&lt;br>
 	 * 
 	 * @param key プロパティキー
 	 * @param defaltValue デフォルトのプロパティ値一覧
@@ -501,12 +540,12 @@ import java.util.List;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>301</td><td>&nbsp;</td>
+      <td class='line'>340</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>	public java.util.List getList(String key, java.util.List defaltValue);</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
-      <td class='line'>303</td><td>&nbsp;</td>
+      <td class='line'>342</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>}</pre></td>
     </tr>
   </table>

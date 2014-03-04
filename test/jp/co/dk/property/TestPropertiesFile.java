@@ -509,6 +509,12 @@ public class TestPropertiesFile extends TestCaseTemplate{
 			fail();
 		} catch (org.apache.commons.configuration.ConversionException e) {
 			assertThat(e.getMessage(), is("'LONG_ERROR' doesn't map to a Long object"));
+		}// キーは定義されているが値がbooleanでなかった場合、例外が送出されること
+		try {
+			propertyFile.getByte("BYTE_ERROR");
+			fail();
+		} catch (org.apache.commons.configuration.ConversionException e) {
+			assertThat(e.getMessage(), is("'BYTE_ERROR' doesn't map to a Byte object"));
 		}
 		
 		// キーは定義されているが値がbooleanでなかった場合、例外が送出されること
@@ -686,6 +692,7 @@ public class TestPropertiesFile extends TestCaseTemplate{
 		assertNotNull(nothing);
 		assertThat(new Integer(nothing.size()), is(new Integer(0)));
 		
+		// キーが定義されていなかった場合、デフォルトのリストが取得されること
 		java.util.List nothingWithDefault = propertyFile.getList("NOTHING",defaultList);
 		assertNotNull(nothingWithDefault);
 		assertThat(new Integer(nothingWithDefault.size()), is(new Integer(1)));
