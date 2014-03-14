@@ -9,7 +9,7 @@ import jp.co.dk.test.template.TestCaseTemplate;
 
 import org.junit.Test;
 
-public class TestPropertiesFile extends TestCaseTemplate{
+public class PropertiesFileTest extends TestCaseTemplate{
 	@Test
 	public void constractor() {
 		// NULLを渡した場合、例外が発生すること

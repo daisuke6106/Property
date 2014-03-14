@@ -21,7 +21,7 @@ import org.junit.Test;
  * @author dk
  *
  */
-public class TestAbstractProperty {
+public class AbstractPropertyTest {
 
 	/**
 	 * @throws java.lang.Exception

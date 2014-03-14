@@ -120,17 +120,17 @@ import jp.co.dk.property.exception.PropertyException;
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>96</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected File <span class='instance uncovered' title='Reads: 67 Writes: 124'>file</span>;</pre></td>
+      <td><pre class='prettyprint'>	protected File <span class='instance uncovered' title='Reads: 67 Writes: 136'>file</span>;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>98</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected Properties <span class='instance covered' title='Reads: 114 Writes: 124'>properties</span>;</pre></td>
+      <td><pre class='prettyprint'>	protected Properties <span class='instance covered' title='Reads: 130 Writes: 136'>properties</span>;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>100</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected String <span class='instance covered' title='Reads: 114 Writes: 124'>key</span>;</pre></td>
+      <td><pre class='prettyprint'>	protected String <span class='instance covered' title='Reads: 130 Writes: 136'>key</span>;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -433,23 +433,23 @@ import jp.co.dk.property.exception.PropertyException;
 	 */</div><span>	/*...*/</span></td>
     </tr>
     <tr>
-      <td class='line'>242</td><td class='count'>57</td>
+      <td class='line'>242</td><td class='count'>69</td>
       <td><pre class='prettyprint covered' id='l242s0'>	protected AbstractProperty (File file, String key) throws PropertyException {</pre></td>
     </tr>
     <tr>
-      <td class='line'>243</td><td class='count'>57</td>
+      <td class='line'>243</td><td class='count'>69</td>
       <td><pre class='prettyprint covered' id='l243s0'>		this.properties = PropertyFlyweight.getInstance(file);</pre></td>
     </tr>
     <tr>
-      <td class='line'>244</td><td class='count'>57</td>
+      <td class='line'>244</td><td class='count'>69</td>
       <td><pre class='prettyprint covered' id='l244s0'>		this.file       = file;</pre></td>
     </tr>
     <tr>
-      <td class='line'>245</td><td class='count'>57</td>
+      <td class='line'>245</td><td class='count'>69</td>
       <td><pre class='prettyprint covered' id='l245s0'>		this.key        = key;</pre></td>
     </tr>
     <tr>
-      <td class='line'>246</td><td class='count'>57</td>
+      <td class='line'>246</td><td class='count'>69</td>
       <td><pre class='prettyprint covered' id='l246s0'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -753,7 +753,7 @@ import jp.co.dk.property.exception.PropertyException;
       </td>
     </tr>
     <tr>
-      <td class='line'>383</td><td class='count'>13</td>
+      <td class='line'>383</td><td class='count'>15</td>
       <td><pre class='prettyprint covered' id='l383s0'>			return this.properties.getBoolean(this.key);</pre></td>
     </tr>
     <tr>
@@ -1421,22 +1421,22 @@ import jp.co.dk.property.exception.PropertyException;
       <td><pre class='prettyprint'>		try {</pre></td>
     </tr>
     <tr>
-      <td></td><td class='count'>6</td>
+      <td></td><td class='count'>20</td>
       <td class='paths'>
         <span style='cursor:default; background-color:#7f8000' onclick='hidePath()'>Path coverage: 2/4</span>
         <span class='covered' onclick="showPath(this,'l540s0 l541s0 l541s1 l541s2 l542s0')">A: 2</span>
-        <span class='covered' onclick="showPath(this,'l540s0 l541s0 l544s0')">B: 4</span>
+        <span class='covered' onclick="showPath(this,'l540s0 l541s0 l544s0')">B: 18</span>
         <span class='uncovered' onclick="showPath(this,'l540s0 l541s0 l541s1 l544s0')">C: 0</span>
         <span class='uncovered' onclick="showPath(this,'l540s0 l541s0 l541s1 l541s2 l544s0')">D: 0</span>
       </td>
     </tr>
     <tr>
-      <td class='line'>540</td><td class='count'>6</td>
+      <td class='line'>540</td><td class='count'>20</td>
       <td><pre class='prettyprint covered' id='l540s0'>			String value = this.properties.getString(this.key);</pre></td>
     </tr>
     <tr>
-      <td class='line'>541</td><td class='count'>6</td>
-      <td><pre class='prettyprint jmp'>			<span id='l541s0' title='Executions: 6' class='covered'>if (value == null</span> && <span id='l541s1' title='Executions: 2' class='covered'>this.defaltValue != null</span> && <span id='l541s2' title='Executions: 2' class='covered'>this.defaltValue instanceof String)</span> <span id='l541s3' title='Executions: 2' class='covered'>{</span></pre></td>
+      <td class='line'>541</td><td class='count'>20</td>
+      <td><pre class='prettyprint jmp'>			<span id='l541s0' title='Executions: 20' class='covered'>if (value == null</span> && <span id='l541s1' title='Executions: 2' class='covered'>this.defaltValue != null</span> && <span id='l541s2' title='Executions: 2' class='covered'>this.defaltValue instanceof String)</span> <span id='l541s3' title='Executions: 2' class='covered'>{</span></pre></td>
     </tr>
     <tr>
       <td class='line'>542</td><td class='count'>2</td>
@@ -1447,7 +1447,7 @@ import jp.co.dk.property.exception.PropertyException;
       <td><pre class='prettyprint'>			} else {</pre></td>
     </tr>
     <tr>
-      <td class='line'>544</td><td class='count'>4</td>
+      <td class='line'>544</td><td class='count'>18</td>
       <td><pre class='prettyprint covered' id='l544s0'>				return value;</pre></td>
     </tr>
     <tr>
