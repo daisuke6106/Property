@@ -1,797 +1,796 @@
 Starting audit...
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:0: ファイルが新しい行で終了していません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:6:8: 使用されないインポートです - java.util.Iterator。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:15: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:28: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:32: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:39: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:41: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:46: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:48: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:53: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:56: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:63: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:72: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:79: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:81: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:86: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:88: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:90: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:95: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:95:1: File contains tab characters (this is the first instance).
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:96:9: Javadoc コメントがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:96:24: 変数 'file' は private とし、アクセッサメソッドを持つべきです。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:97: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:98:9: Javadoc コメントがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:98:30: 変数 'properties' は private とし、アクセッサメソッドを持つべきです。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:99: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:100:9: Javadoc コメントがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:100:26: 変数 'key' は private とし、アクセッサメソッドを持つべきです。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:101: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:102:9: Javadoc コメントがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:102:26: 変数 'defaltValue' は private とし、アクセッサメソッドを持つべきです。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:103: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:104: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:106: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:108: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:111:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:111:37: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:111:44: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:111:56: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:111:56: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:112: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:116: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:117: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:119: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:121: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:125: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:125:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:125:37: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:125:44: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:125:49: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:125:57: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:125:77: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:125:77: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:129: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:130: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:132: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:134: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:138: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:138:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:138:37: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:138:44: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:138:49: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:138:54: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:138:74: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:138:74: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:142: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:143: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:145: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:147: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:151: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:151:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:151:37: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:151:44: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:151:49: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:151:56: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:151:76: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:151:76: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:155: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:156: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:158: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:160: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:164: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:164:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:164:37: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:164:44: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:164:49: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:164:55: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:164:75: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:164:75: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:168: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:169: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:171: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:173: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:177: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:177:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:177:37: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:177:44: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:177:49: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:177:53: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:177:73: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:177:73: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:181: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:182: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:184: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:186: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:190: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:190:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:190:37: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:190:44: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:190:49: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:190:54: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:190:74: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:190:74: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:194: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:195: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:197: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:199: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:203: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:203:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:203:37: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:203:44: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:203:49: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:203:55: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:203:75: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:203:75: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:207: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:208: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:210: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:212: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:216: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:216:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:216:37: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:216:44: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:216:49: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:216:60: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:216:80: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:216:80: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:220: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:221: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:223: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:225: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:229: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:229:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:229:37: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:229:44: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:229:49: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:229:56: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:229:76: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:229:76: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:233: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:234: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:236: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:238: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:242: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:242:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:242:37: Parameter file should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:242:42: 'file' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:242:48: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:242:55: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:242:67: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:242:67: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:247: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:249: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:251: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:253: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:258: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:258:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:258:37: Parameter file should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:258:42: 'file' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:258:48: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:258:55: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:258:60: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:258:68: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:258:88: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:258:88: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:262: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:263: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:265: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:267: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:272: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:272:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:272:37: Parameter file should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:272:42: 'file' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:272:48: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:272:55: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:272:60: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:272:65: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:272:85: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:272:85: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:276: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:277: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:279: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:281: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:286: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:286:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:286:37: Parameter file should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:286:42: 'file' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:286:48: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:286:55: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:286:60: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:286:67: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:286:87: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:286:87: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:290: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:291: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:293: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:295: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:300: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:300:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:300:37: Parameter file should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:300:42: 'file' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:300:48: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:300:55: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:300:60: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:300:66: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:300:86: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:300:86: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:304: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:305: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:307: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:309: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:314: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:314:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:314:37: Parameter file should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:314:42: 'file' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:314:48: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:314:55: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:314:60: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:314:64: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:314:84: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:314:84: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:318: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:319: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:321: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:323: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:328: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:328:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:328:37: Parameter file should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:328:42: 'file' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:328:48: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:328:55: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:328:60: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:328:65: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:328:85: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:328:85: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:332: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:333: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:335: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:337: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:342: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:342:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:342:37: Parameter file should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:342:42: 'file' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:342:48: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:342:55: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:342:60: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:342:66: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:342:86: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:342:86: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:346: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:347: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:349: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:351: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:356: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:356:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:356:37: Parameter file should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:356:42: 'file' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:356:48: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:356:55: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:356:60: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:356:71: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:356:91: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:356:91: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:360: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:361: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:363: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:365: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:370: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:370:36: '(' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:370:37: Parameter file should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:370:42: 'file' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:370:48: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:370:55: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:370:60: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:370:67: 'defaltValue' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:370:87: 'PropertyException' には @throws タグが必要です。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:370:87: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:374: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:375:9: メソッド 'getKey' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:379: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:380:9: メソッド 'getBoolean' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:385: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:386: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:391: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:392: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:399:9: メソッド 'getByte' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:404: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:410: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:418:9: メソッド 'getDouble' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:423: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:424: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:429: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:430: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:437:9: メソッド 'getFloat' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:442: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:448: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:456:9: メソッド 'getInt' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:461: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:467: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:475:9: メソッド 'getLong' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:480: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:486: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:494:9: メソッド 'getShort' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:499: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:505: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:513:9: メソッド 'getBigDecimal' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:516: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:517: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:518: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:518:68: 'cast' の後にホワイトスペースがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:523: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:524: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:529: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:530: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:537:9: メソッド 'getString' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:541: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:547: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:553: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:560: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:561:9: Javadoc コメントがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:561:9: メソッド 'getStringArray' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:563: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:563:38: Array brackets at illegal position.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:564: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:564:111: ')' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:565:50: 'cast' の後にホワイトスペースがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:570: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:571:50: 'cast' の後にホワイトスペースがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:576: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:577:50: 'cast' の後にホワイトスペースがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:583: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:584:9: メソッド 'getList' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:587: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:588: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:589:56: 'cast' の後にホワイトスペースがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:594: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:595:56: 'cast' の後にホワイトスペースがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:600: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:601:56: 'cast' の後にホワイトスペースがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:608:9: メソッド 'getPropertyList' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:609:58: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:612:29: 'key' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:613: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:617: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:620: Javadoc コメントがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:620:43: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:621: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:622:9: Javadoc コメントがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:623: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:624: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:624:9: Javadoc コメントがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:624:31: Parameter propertyFile should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:624:50: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:624:62: Parameter parentKey should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:624:69: 'parentKey' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:624:87: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/AbstractProperty.java:628: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:5: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:6: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:9: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:14: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:14:1: File contains tab characters (this is the first instance).
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:15: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:17: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:20:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:21: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:22: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:25: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:29:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:30: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:31: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:33: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:37:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:38: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:39: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:41: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:45:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:46: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:47: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:49: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:52:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:53: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:54: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:57:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:58: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:59: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:61: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:65:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:66: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:67: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:69: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:73:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:74: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:75: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:77: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:80:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:81: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:82: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:84: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:86: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:89:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:90: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:90:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:92:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:93: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:94: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:96: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:98: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:102:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:103: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:103:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:105:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:106: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:107: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:109: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:111: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:114:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:115: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:115:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:117:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:118: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:119: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:121: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:123: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:127:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:128: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:128:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:130:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:131: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:132: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:134: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:136: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:139:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:140: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:140:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:142:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:143: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:144: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:146: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:148: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:152:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:153: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:153:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:155:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:156: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:157: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:159: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:161: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:164:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:165: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:165:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:167:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:168: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:169: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:171: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:173: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:177:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:178: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:178:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:180:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:181: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:182: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:184: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:186: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:189:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:190: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:190:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:192:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:193: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:194: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:196: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:198: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:202:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:203: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:203:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:205:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:206: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:207: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:209: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:211: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:214:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:215: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:215:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:217:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:218: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:219: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:221: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:223: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:227:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:228: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:228:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:230:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:231: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:232: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:234: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:236: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:239:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:240: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:240:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:242:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:243: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:244: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:246: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:248: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:252:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:253: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:253:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:255:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:256: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:257: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:259: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:261: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:264:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:265: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:265:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:267:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:268: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:269: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:272: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:274: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:278:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:279: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:279:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:281: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:281:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:282: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:283: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:285: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:289: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:293:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:294: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:295: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:298: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:301: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:306:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:307: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:308: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:310: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:313: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:317:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:318: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:319: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:321: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:324: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:328:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:329: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:330: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:332: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:335: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:340:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Properties.java:341: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:13: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:14: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:18: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:22:50: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:23: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:23:1: File contains tab characters (this is the first instance).
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:24:9: Javadoc コメントがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:24:26: 変数 'propertyFile' は private とし、アクセッサメソッドを持つべきです。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:25: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:26:9: Javadoc コメントがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:26:33: 変数 'configure' は private とし、アクセッサメソッドを持つべきです。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:27: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:28: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:32: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:36:31: Parameter propertyFile should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:36:38: 'propertyFile' がフィールドを隠しています。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:36:59: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:36:76: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:39: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:47: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:48:9: メソッド 'isEmpty' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:52: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:53:9: メソッド 'containsKey' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:54:36: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:57: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:58:9: メソッド 'addProperty' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:59:33: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:59:55: Parameter value should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:62: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:63:9: メソッド 'setProperty' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:64:33: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:64:55: Parameter value should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:67: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:68:9: メソッド 'clearProperty' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:69:35: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:72: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:73:9: メソッド 'clear' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:77: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:78:9: メソッド 'getProperty' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:79:35: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:82: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:83:9: メソッド 'getKeys' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:84:37: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:88: 'if' 文では '{}' を使用しなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:92: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:93:9: メソッド 'getKeys' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:102: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:103:9: メソッド 'getBoolean' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:104:35: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:107: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:108:9: メソッド 'getBoolean' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:109:35: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:109:47: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:112: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:113:9: メソッド 'getByte' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:114:29: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:117: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:118:9: メソッド 'getByte' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:119:29: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:119:41: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:122: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:123:9: メソッド 'getDouble' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:124:33: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:127: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:128:9: メソッド 'getDouble' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:129:33: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:129:45: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:132: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:133:9: メソッド 'getFloat' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:134:31: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:137: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:138:9: メソッド 'getFloat' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:139:31: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:139:43: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:142: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:143:9: メソッド 'getInt' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:144:27: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:147: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:148:9: メソッド 'getInt' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:149:27: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:149:39: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:152: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:153:9: メソッド 'getLong' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:154:29: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:157: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:158:9: メソッド 'getLong' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:159:29: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:159:41: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:162: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:163:9: メソッド 'getShort' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:164:31: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:167: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:168:9: メソッド 'getShort' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:169:31: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:169:43: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:172: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:173:9: メソッド 'getBigDecimal' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:174:51: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:178: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:179: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:183: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:184:9: メソッド 'getBigDecimal' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:185: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:185:51: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:185:63: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:188: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:189:9: メソッド 'getString' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:190:33: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:193: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:194:9: メソッド 'getString' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:195:33: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:195:45: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:198: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:199:9: メソッド 'getStringArray' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:200:40: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:203: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:204:9: メソッド 'getList' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:205:39: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:208: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:209:9: メソッド 'getList' は拡張するように設計されていません - abstract か final か空である必要があります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:210:39: Parameter key should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:210:51: Parameter defaltValue should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertiesFile.java:213: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:3: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:4: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:7: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:12: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:12:1: File contains tab characters (this is the first instance).
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:13: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:17:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:18: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:19: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:23:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:24: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:25: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:29:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:30: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:31: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:35:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:36: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:37: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:41:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:42: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:43: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:47:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:48: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:49: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:53:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:54: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:55: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:59:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:60: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:61: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:65:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:66: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:67: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:71:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:72: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:73: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:77:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:78: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:79: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:83:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:84: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:85: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:89:9: 冗長な 'public' 修飾子です。
-/home/dk/projects/Property/src/jp/co/dk/property/Property.java:90: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertyFlyweight.java:9: Javadoc コメントがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertyFlyweight.java:9:1: Utility classes should not have a public or default constructor.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertyFlyweight.java:10: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertyFlyweight.java:10:1: File contains tab characters (this is the first instance).
-/home/dk/projects/Property/src/jp/co/dk/property/PropertyFlyweight.java:11:9: Javadoc コメントがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertyFlyweight.java:11:63: ';' の前にホワイトスペースがあります。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertyFlyweight.java:12: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertyFlyweight.java:16: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertyFlyweight.java:17: 行が 80 文字を超えています。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertyFlyweight.java:17:9: Javadoc コメントがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/PropertyFlyweight.java:17:56: Parameter file should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/PropertyFlyweight.java:17:74: PropertyException のクラス情報が取得できません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:5: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:7: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:11:69: '{' の前にホワイトスペースがありません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:13: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:13:1: File contains tab characters (this is the first instance).
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:17: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:19: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:21: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:23: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:29: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:30: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:32: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:34: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:38:44: Parameter message should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:41: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:42: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:44: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:46: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:51:44: Parameter message should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:51:60: Parameter e should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:54: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:55: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:57: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:59: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyConversionException.java:63:44: Parameter e should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:3: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:5: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:10: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:10:1: File contains tab characters (this is the first instance).
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:11: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:12: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:15: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:16: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:18: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:20: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:26: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:27: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:29: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:31: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:35:34: Parameter message should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:38: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:39: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:41: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:43: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:48:34: Parameter message should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:48:50: Parameter e should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:51: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:52: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:54: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:56: Line has trailing spaces.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/PropertyException.java:60:34: Parameter e should be final.
-/home/dk/projects/Property/src/jp/co/dk/property/exception/package-info.java:0: ファイルが新しい行で終了していません。
-/home/dk/projects/Property/src/jp/co/dk/property/exception/package-info.java:1: 最初の一文はピリオドで終わらなければなりません。
-/home/dk/projects/Property/src/jp/co/dk/property/package-info.java:0: ファイルが新しい行で終了していません。
-/home/dk/projects/Property/src/jp/co/dk/property/package-info.java:1: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:0: ファイルが新しい行で終了していません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:14: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:30: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:34: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:41: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:43: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:48: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:50: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:55: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:58: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:65: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:74: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:81: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:83: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:88: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:90: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:92: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:97: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:97:1: File contains tab characters (this is the first instance).
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:98:9: Javadoc コメントがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:98:24: 変数 'file' は private とし、アクセッサメソッドを持つべきです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:99: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:100:9: Javadoc コメントがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:100:30: 変数 'properties' は private とし、アクセッサメソッドを持つべきです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:101: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:102:9: Javadoc コメントがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:102:26: 変数 'key' は private とし、アクセッサメソッドを持つべきです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:103: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:104:9: Javadoc コメントがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:104:26: 変数 'defaltValue' は private とし、アクセッサメソッドを持つべきです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:105: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:106: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:108: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:110: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:113:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:113:37: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:113:44: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:113:56: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:113:56: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:114: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:118: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:119: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:121: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:123: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:127: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:127:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:127:37: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:127:44: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:127:49: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:127:57: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:127:77: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:127:77: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:131: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:132: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:134: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:136: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:140: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:140:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:140:37: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:140:44: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:140:49: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:140:54: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:140:74: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:140:74: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:144: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:145: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:147: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:149: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:153: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:153:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:153:37: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:153:44: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:153:49: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:153:56: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:153:76: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:153:76: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:157: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:158: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:160: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:162: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:166: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:166:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:166:37: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:166:44: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:166:49: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:166:55: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:166:75: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:166:75: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:170: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:171: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:173: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:175: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:179: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:179:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:179:37: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:179:44: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:179:49: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:179:53: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:179:73: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:179:73: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:183: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:184: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:186: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:188: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:192: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:192:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:192:37: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:192:44: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:192:49: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:192:54: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:192:74: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:192:74: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:196: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:197: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:199: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:201: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:205: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:205:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:205:37: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:205:44: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:205:49: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:205:55: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:205:75: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:205:75: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:209: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:210: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:212: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:214: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:218: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:218:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:218:37: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:218:44: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:218:49: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:218:60: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:218:80: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:218:80: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:222: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:223: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:225: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:227: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:231: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:231:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:231:37: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:231:44: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:231:49: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:231:56: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:231:76: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:231:76: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:235: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:236: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:238: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:240: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:244: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:244:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:244:37: Parameter file should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:244:42: 'file' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:244:48: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:244:55: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:244:67: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:244:67: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:249: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:251: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:253: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:255: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:260: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:260:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:260:37: Parameter file should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:260:42: 'file' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:260:48: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:260:55: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:260:60: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:260:68: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:260:88: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:260:88: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:264: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:265: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:267: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:269: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:274: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:274:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:274:37: Parameter file should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:274:42: 'file' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:274:48: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:274:55: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:274:60: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:274:65: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:274:85: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:274:85: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:278: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:279: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:281: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:283: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:288: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:288:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:288:37: Parameter file should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:288:42: 'file' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:288:48: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:288:55: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:288:60: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:288:67: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:288:87: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:288:87: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:292: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:293: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:295: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:297: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:302: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:302:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:302:37: Parameter file should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:302:42: 'file' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:302:48: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:302:55: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:302:60: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:302:66: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:302:86: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:302:86: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:306: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:307: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:309: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:311: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:316: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:316:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:316:37: Parameter file should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:316:42: 'file' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:316:48: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:316:55: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:316:60: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:316:64: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:316:84: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:316:84: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:320: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:321: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:323: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:325: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:330: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:330:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:330:37: Parameter file should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:330:42: 'file' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:330:48: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:330:55: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:330:60: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:330:65: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:330:85: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:330:85: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:334: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:335: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:337: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:339: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:344: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:344:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:344:37: Parameter file should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:344:42: 'file' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:344:48: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:344:55: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:344:60: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:344:66: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:344:86: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:344:86: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:348: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:349: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:351: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:353: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:358: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:358:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:358:37: Parameter file should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:358:42: 'file' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:358:48: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:358:55: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:358:60: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:358:71: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:358:91: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:358:91: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:362: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:363: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:365: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:367: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:372: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:372:36: '(' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:372:37: Parameter file should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:372:42: 'file' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:372:48: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:372:55: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:372:60: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:372:67: 'defaltValue' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:372:87: 'PropertyException' には @throws タグが必要です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:372:87: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:376: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:377:9: メソッド 'getKey' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:381: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:382:9: メソッド 'getBoolean' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:387: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:388: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:393: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:394: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:401:9: メソッド 'getByte' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:406: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:412: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:420:9: メソッド 'getDouble' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:425: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:426: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:431: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:432: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:439:9: メソッド 'getFloat' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:444: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:450: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:458:9: メソッド 'getInt' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:463: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:469: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:477:9: メソッド 'getLong' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:482: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:488: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:496:9: メソッド 'getShort' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:501: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:507: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:515:9: メソッド 'getBigDecimal' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:518: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:519: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:520: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:520:68: 'cast' の後にホワイトスペースがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:525: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:526: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:531: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:532: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:539:9: メソッド 'getString' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:543: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:549: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:555: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:562: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:563:9: Javadoc コメントがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:563:9: メソッド 'getStringArray' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:565: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:565:38: Array brackets at illegal position.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:566: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:566:111: ')' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:567:50: 'cast' の後にホワイトスペースがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:572: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:573:50: 'cast' の後にホワイトスペースがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:578: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:579:50: 'cast' の後にホワイトスペースがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:585: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:586:9: メソッド 'getList' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:589: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:590: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:591:56: 'cast' の後にホワイトスペースがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:596: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:597:56: 'cast' の後にホワイトスペースがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:602: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:603:56: 'cast' の後にホワイトスペースがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:610:9: メソッド 'getPropertyList' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:611:58: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:614:29: 'key' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:615: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:619: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:622: Javadoc コメントがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:622:43: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:623: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:624:9: Javadoc コメントがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:625: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:626: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:626:9: Javadoc コメントがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:626:31: Parameter propertyFile should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:626:50: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:626:62: Parameter parentKey should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:626:69: 'parentKey' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:626:87: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/AbstractProperty.java:630: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:5: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:6: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:9: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:14: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:14:1: File contains tab characters (this is the first instance).
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:15: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:17: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:20:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:21: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:22: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:25: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:29:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:30: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:31: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:33: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:37:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:38: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:39: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:41: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:45:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:46: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:47: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:49: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:52:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:53: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:54: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:57:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:58: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:59: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:61: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:65:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:66: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:67: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:69: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:73:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:74: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:75: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:77: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:80:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:81: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:82: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:84: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:86: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:89:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:90: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:90:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:92:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:93: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:94: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:96: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:98: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:102:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:103: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:103:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:105:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:106: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:107: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:109: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:111: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:114:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:115: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:115:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:117:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:118: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:119: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:121: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:123: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:127:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:128: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:128:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:130:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:131: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:132: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:134: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:136: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:139:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:140: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:140:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:142:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:143: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:144: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:146: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:148: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:152:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:153: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:153:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:155:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:156: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:157: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:159: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:161: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:164:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:165: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:165:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:167:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:168: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:169: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:171: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:173: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:177:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:178: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:178:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:180:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:181: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:182: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:184: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:186: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:189:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:190: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:190:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:192:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:193: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:194: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:196: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:198: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:202:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:203: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:203:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:205:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:206: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:207: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:209: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:211: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:214:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:215: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:215:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:217:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:218: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:219: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:221: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:223: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:227:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:228: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:228:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:230:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:231: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:232: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:234: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:236: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:239:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:240: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:240:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:242:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:243: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:244: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:246: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:248: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:252:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:253: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:253:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:255:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:256: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:257: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:259: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:261: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:264:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:265: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:265:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:267:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:268: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:269: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:272: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:274: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:278:12: 'java.util.NoSuchElementException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:279: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:279:12: 'org.apache.commons.configuration.ConversionException' に対する使用されない @throws タグです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:281: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:281:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:282: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:283: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:285: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:289: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:293:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:294: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:295: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:298: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:301: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:306:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:307: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:308: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:310: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:313: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:317:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:318: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:319: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:321: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:324: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:328:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:329: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:330: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:332: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:335: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:340:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Properties.java:341: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:13: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:14: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:18: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:22:50: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:23: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:23:1: File contains tab characters (this is the first instance).
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:24:9: Javadoc コメントがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:24:26: 変数 'propertyFile' は private とし、アクセッサメソッドを持つべきです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:25: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:26:9: Javadoc コメントがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:26:33: 変数 'configure' は private とし、アクセッサメソッドを持つべきです。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:27: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:28: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:32: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:36:31: Parameter propertyFile should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:36:38: 'propertyFile' がフィールドを隠しています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:36:59: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:36:76: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:39: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:47: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:48:9: メソッド 'isEmpty' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:52: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:53:9: メソッド 'containsKey' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:54:36: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:57: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:58:9: メソッド 'addProperty' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:59:33: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:59:55: Parameter value should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:62: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:63:9: メソッド 'setProperty' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:64:33: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:64:55: Parameter value should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:67: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:68:9: メソッド 'clearProperty' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:69:35: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:72: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:73:9: メソッド 'clear' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:77: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:78:9: メソッド 'getProperty' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:79:35: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:82: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:83:9: メソッド 'getKeys' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:84:37: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:88: 'if' 文では '{}' を使用しなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:92: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:93:9: メソッド 'getKeys' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:102: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:103:9: メソッド 'getBoolean' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:104:35: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:107: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:108:9: メソッド 'getBoolean' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:109:35: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:109:47: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:112: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:113:9: メソッド 'getByte' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:114:29: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:117: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:118:9: メソッド 'getByte' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:119:29: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:119:41: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:122: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:123:9: メソッド 'getDouble' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:124:33: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:127: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:128:9: メソッド 'getDouble' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:129:33: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:129:45: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:132: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:133:9: メソッド 'getFloat' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:134:31: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:137: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:138:9: メソッド 'getFloat' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:139:31: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:139:43: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:142: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:143:9: メソッド 'getInt' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:144:27: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:147: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:148:9: メソッド 'getInt' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:149:27: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:149:39: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:152: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:153:9: メソッド 'getLong' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:154:29: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:157: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:158:9: メソッド 'getLong' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:159:29: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:159:41: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:162: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:163:9: メソッド 'getShort' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:164:31: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:167: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:168:9: メソッド 'getShort' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:169:31: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:169:43: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:172: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:173:9: メソッド 'getBigDecimal' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:174:51: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:178: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:179: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:183: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:184:9: メソッド 'getBigDecimal' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:185: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:185:51: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:185:63: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:188: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:189:9: メソッド 'getString' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:190:33: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:193: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:194:9: メソッド 'getString' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:195:33: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:195:45: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:198: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:199:9: メソッド 'getStringArray' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:200:40: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:203: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:204:9: メソッド 'getList' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:205:39: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:208: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:209:9: メソッド 'getList' は拡張するように設計されていません - abstract か final か空である必要があります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:210:39: Parameter key should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:210:51: Parameter defaltValue should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertiesFile.java:213: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:3: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:4: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:7: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:12: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:12:1: File contains tab characters (this is the first instance).
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:13: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:17:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:18: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:19: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:23:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:24: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:25: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:29:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:30: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:31: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:35:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:36: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:37: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:41:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:42: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:43: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:47:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:48: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:49: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:53:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:54: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:55: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:59:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:60: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:61: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:65:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:66: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:67: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:71:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:72: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:73: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:77:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:78: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:79: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:83:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:84: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:85: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:89:9: 冗長な 'public' 修飾子です。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/Property.java:90: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertyFlyweight.java:9: Javadoc コメントがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertyFlyweight.java:9:1: Utility classes should not have a public or default constructor.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertyFlyweight.java:10: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertyFlyweight.java:10:1: File contains tab characters (this is the first instance).
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertyFlyweight.java:11:9: Javadoc コメントがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertyFlyweight.java:11:63: ';' の前にホワイトスペースがあります。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertyFlyweight.java:12: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertyFlyweight.java:16: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertyFlyweight.java:17: 行が 80 文字を超えています。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertyFlyweight.java:17:9: Javadoc コメントがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertyFlyweight.java:17:56: Parameter file should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/PropertyFlyweight.java:17:74: PropertyException のクラス情報が取得できません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:5: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:7: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:11:69: '{' の前にホワイトスペースがありません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:13: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:13:1: File contains tab characters (this is the first instance).
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:17: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:19: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:21: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:23: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:29: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:30: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:32: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:34: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:38:44: Parameter message should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:41: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:42: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:44: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:46: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:51:44: Parameter message should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:51:60: Parameter e should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:54: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:55: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:57: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:59: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyConversionException.java:63:44: Parameter e should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:3: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:5: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:10: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:10:1: File contains tab characters (this is the first instance).
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:11: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:12: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:15: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:16: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:18: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:20: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:26: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:27: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:29: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:31: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:35:34: Parameter message should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:38: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:39: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:41: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:43: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:48:34: Parameter message should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:48:50: Parameter e should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:51: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:52: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:54: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:56: Line has trailing spaces.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/PropertyException.java:60:34: Parameter e should be final.
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/package-info.java:0: ファイルが新しい行で終了していません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/exception/package-info.java:1: 最初の一文はピリオドで終わらなければなりません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/package-info.java:0: ファイルが新しい行で終了していません。
+/home/dk/github_workspace/Property/src/main/java/jp/co/dk/property/package-info.java:1: 最初の一文はピリオドで終わらなければなりません。
 Audit done.

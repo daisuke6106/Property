@@ -9,7 +9,7 @@
 </head>
 <body onload='prettyPrint()'>
   <table cellpadding='0' cellspacing='1'>
-    <caption>Property/src/jp/co/dk/property/PropertiesFile.java</caption>
+    <caption>Property/src/main/java/jp/co/dk/property/PropertiesFile.java</caption>
     <tr>
       <td class='line'>1</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>package jp.co.dk.property;</pre></td>
@@ -48,12 +48,12 @@ import org.apache.commons.configuration.PropertiesConfiguration;
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>24</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected String <span class='instance uncovered' title='Reads: 3 Writes: 29'>propertyFile</span>;</pre></td>
+      <td><pre class='prettyprint'>	protected String <span class='instance covered' title='Reads: 4 Writes: 29'>propertyFile</span>;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>26</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	protected Configuration <span class='instance covered' title='Reads: 233 Writes: 26'>configure</span>;</pre></td>
+      <td><pre class='prettyprint'>	protected Configuration <span class='instance covered' title='Reads: 119 Writes: 25'>configure</span>;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -84,23 +84,23 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint covered' id='l39s0'>			this.configure = new PropertiesConfiguration(propertyFile);</pre></td>
     </tr>
     <tr>
-      <td class='line'>40</td><td class='count'>3</td>
+      <td class='line'>40</td><td class='count'>25</td>
       <td><pre class='prettyprint covered' id='l40s0'>		} catch (ConfigurationException e) {</pre></td>
     </tr>
     <tr>
-      <td class='line'>41</td><td class='count'>3</td>
+      <td class='line'>41</td><td class='count'>4</td>
       <td><pre class='prettyprint covered' id='l41s0'>			StringBuilder sb = new StringBuilder();</pre></td>
     </tr>
     <tr>
-      <td class='line'>42</td><td class='count'>3</td>
+      <td class='line'>42</td><td class='count'>4</td>
       <td><pre class='prettyprint covered' id='l42s0'>			sb.append("Property File was not found.");</pre></td>
     </tr>
     <tr>
-      <td class='line'>43</td><td class='count'>3</td>
+      <td class='line'>43</td><td class='count'>4</td>
       <td><pre class='prettyprint covered' id='l43s0'>			sb.append("file=").append(this.propertyFile);</pre></td>
     </tr>
     <tr>
-      <td class='line'>44</td><td class='count'>3</td>
+      <td class='line'>44</td><td class='count'>4</td>
       <td><pre class='prettyprint covered' id='l44s0'>			throw new PropertyException(sb.toString(), e);</pre></td>
     </tr>
     <tr>
@@ -108,7 +108,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>		}</pre></td>
     </tr>
     <tr>
-      <td class='line'>46</td><td class='count'>26</td>
+      <td class='line'>46</td><td class='count'>25</td>
       <td><pre class='prettyprint covered' id='l46s0'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
@@ -322,7 +322,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public boolean getBoolean(String key)  {</pre></td>
     </tr>
     <tr>
-      <td class='line'>105</td><td class='count'>20</td>
+      <td class='line'>105</td><td class='count'>7</td>
       <td><pre class='prettyprint covered' id='l105s0'>		return this.configure.getBoolean(key);</pre></td>
     </tr>
     <tr>
@@ -356,7 +356,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public byte getByte(String key)  {</pre></td>
     </tr>
     <tr>
-      <td class='line'>115</td><td class='count'>23</td>
+      <td class='line'>115</td><td class='count'>6</td>
       <td><pre class='prettyprint covered' id='l115s0'>		return this.configure.getByte(key);</pre></td>
     </tr>
     <tr>
@@ -390,7 +390,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public double getDouble(String key)  {</pre></td>
     </tr>
     <tr>
-      <td class='line'>125</td><td class='count'>19</td>
+      <td class='line'>125</td><td class='count'>5</td>
       <td><pre class='prettyprint covered' id='l125s0'>		return this.configure.getDouble(key);</pre></td>
     </tr>
     <tr>
@@ -424,7 +424,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public float getFloat(String key)  {</pre></td>
     </tr>
     <tr>
-      <td class='line'>135</td><td class='count'>19</td>
+      <td class='line'>135</td><td class='count'>5</td>
       <td><pre class='prettyprint covered' id='l135s0'>		return this.configure.getFloat(key);</pre></td>
     </tr>
     <tr>
@@ -458,7 +458,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public int getInt(String key)  {</pre></td>
     </tr>
     <tr>
-      <td class='line'>145</td><td class='count'>19</td>
+      <td class='line'>145</td><td class='count'>5</td>
       <td><pre class='prettyprint covered' id='l145s0'>		return this.configure.getInt(key);</pre></td>
     </tr>
     <tr>
@@ -492,7 +492,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public long getLong(String key)  {</pre></td>
     </tr>
     <tr>
-      <td class='line'>155</td><td class='count'>19</td>
+      <td class='line'>155</td><td class='count'>5</td>
       <td><pre class='prettyprint covered' id='l155s0'>		return this.configure.getLong(key);</pre></td>
     </tr>
     <tr>
@@ -526,7 +526,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public short getShort(String key)  {</pre></td>
     </tr>
     <tr>
-      <td class='line'>165</td><td class='count'>19</td>
+      <td class='line'>165</td><td class='count'>5</td>
       <td><pre class='prettyprint covered' id='l165s0'>		return this.configure.getShort(key);</pre></td>
     </tr>
     <tr>
@@ -560,31 +560,31 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public java.math.BigDecimal getBigDecimal(String key)  {</pre></td>
     </tr>
     <tr>
-      <td></td><td class='count'>6</td>
+      <td></td><td class='count'>2</td>
       <td class='paths'>
         <span style='cursor:default; background-color:#00ff00' onclick='hidePath()'>Path coverage: 2/2</span>
-        <span class='covered' onclick="showPath(this,'l175s0 l176s0 l177s0 l179s0')">A: 3</span>
-        <span class='covered' onclick="showPath(this,'l175s0 l176s0 l181s0')">B: 3</span>
+        <span class='covered' onclick="showPath(this,'l175s0 l176s0 l177s0 l179s0')">A: 1</span>
+        <span class='covered' onclick="showPath(this,'l175s0 l176s0 l181s0')">B: 1</span>
       </td>
     </tr>
     <tr>
-      <td class='line'>175</td><td class='count'>12</td>
+      <td class='line'>175</td><td class='count'>4</td>
       <td><pre class='prettyprint covered' id='l175s0'>		java.math.BigDecimal value = this.configure.getBigDecimal(key);</pre></td>
     </tr>
     <tr>
-      <td class='line'>176</td><td class='count'>6</td>
-      <td><pre class='prettyprint jmp'>		<span id='l176s0' title='Executions: 6' class='covered'>if (value == null)</span> <span id='l176s1' title='Executions: 3' class='covered'>{</span></pre></td>
+      <td class='line'>176</td><td class='count'>2</td>
+      <td><pre class='prettyprint jmp'>		<span id='l176s0' title='Executions: 2' class='covered'>if (value == null)</span> <span id='l176s1' title='Executions: 1' class='covered'>{</span></pre></td>
     </tr>
     <tr>
-      <td class='line'>177</td><td class='count'>3</td>
+      <td class='line'>177</td><td class='count'>1</td>
       <td><pre class='prettyprint covered' id='l177s0'>			StringBuilder message = new StringBuilder("'");</pre></td>
     </tr>
     <tr>
-      <td class='line'>178</td><td class='count'>3</td>
+      <td class='line'>178</td><td class='count'>1</td>
       <td><pre class='prettyprint covered' id='l178s0'>			message.append(key).append("' doesn't map to an existing object");</pre></td>
     </tr>
     <tr>
-      <td class='line'>179</td><td class='count'>3</td>
+      <td class='line'>179</td><td class='count'>1</td>
       <td><pre class='prettyprint covered' id='l179s0'>			throw new java.util.NoSuchElementException(message.toString());</pre></td>
     </tr>
     <tr>
@@ -592,7 +592,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>		}</pre></td>
     </tr>
     <tr>
-      <td class='line'>181</td><td class='count'>3</td>
+      <td class='line'>181</td><td class='count'>1</td>
       <td><pre class='prettyprint covered' id='l181s0'>		return value;</pre></td>
     </tr>
     <tr>
@@ -626,7 +626,7 @@ import org.apache.commons.configuration.PropertiesConfiguration;
       <td><pre class='prettyprint'>	public String getString(String key)  {</pre></td>
     </tr>
     <tr>
-      <td class='line'>191</td><td class='count'>29</td>
+      <td class='line'>191</td><td class='count'>23</td>
       <td><pre class='prettyprint covered' id='l191s0'>		return this.configure.getString(key);</pre></td>
     </tr>
     <tr>

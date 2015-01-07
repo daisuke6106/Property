@@ -1,0 +1,2684 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JMockit Coverage Report - AbstractPropertyTest.java</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+  <link rel='stylesheet' type='text/css' href='../../../../coverage.css'/>
+  <script type='text/javascript' src='../../../../coverage.js'></script>
+  <script type='text/javascript' src='../../../../prettify.js'></script>
+</head>
+<body onload='prettyPrint()'>
+  <table cellpadding='0' cellspacing='1'>
+    <caption>Property/src/test/java/jp/co/dk/property/AbstractPropertyTest.java</caption>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>/**
+ * 
+ */</div><span>/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>4</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>package jp.co.dk.property;</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td><pre class='imports prettyprint' onclick='showHideLines(this)'><div>import static org.junit.Assert.*;
+
+import java.io.File;
+import java.math.BigDecimal;
+
+import jp.co.dk.property.exception.PropertyConversionException;
+import jp.co.dk.property.exception.PropertyException;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+</div><span>import ...</span></pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>/**
+ * @author dk
+ *
+ */</div><span>/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>24</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>public class AbstractPropertyTest {</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * @throws java.lang.Exception
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>29</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@BeforeClass</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>30</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public static void setUpBeforeClass() throws Exception {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>31</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * @throws java.lang.Exception
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>36</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@AfterClass</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>37</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public static void tearDownAfterClass() throws Exception {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>38</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * @throws java.lang.Exception
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>43</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@Before</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>44</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void setUp() throws Exception {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>45</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * @throws java.lang.Exception
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>50</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@After</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>51</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void tearDown() throws Exception {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>52</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>55</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@Test</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>56</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void getBoolean() {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>57</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>58</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.BOOLEAN_BLANK.getBoolean();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>59</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>60</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>62</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.BOOLEAN_TRUE.getBoolean());</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>64</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertFalse(DummyProperty.BOOLEAN_FALSE.getBoolean());</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>66</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>67</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.BOOLEAN_ERROR.getBoolean();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>68</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>69</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>71</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.BOOLEAN_DEFALT.getBoolean());</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>74</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>75</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_BOOLEAN_BLANK.getBoolean();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>76</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>77</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>79</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_BOOLEAN_TRUE.getBoolean());</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>81</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertFalse(DummyProperty.F_BOOLEAN_FALSE.getBoolean());</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>83</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>84</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_BOOLEAN_ERROR.getBoolean();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>85</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>86</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>88</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_BOOLEAN_DEFALT.getBoolean());</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>90</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>91</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.NOTHING.getBoolean();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>92</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>93</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>96</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>97</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			assertTrue(DummyProperty.NOTHING_BOOLEAN.getBoolean());</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>98</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>99</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>100</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>102</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>103</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.NOTHING_STRING.getBoolean();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>104</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>105</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>107</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>109</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@Test</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>110</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void getByte() {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>111</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>112</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.BYTE_BLANK.getByte();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>113</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>114</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>116</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.BYTE_MIN.getByte() == -128);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>118</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.BYTE_MAX.getByte() == 127);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>120</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>121</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.BYTE_ERROR.getByte();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>122</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>123</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>125</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>126</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.BYTE_MIN_ERROR.getByte();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>127</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>128</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>130</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>131</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.BYTE_MAX_ERROR.getByte();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>132</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>133</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>135</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.BYTE_DEFALT.getByte() == (byte)123);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>139</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>140</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_BYTE_BLANK.getByte();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>141</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>142</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>144</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_BYTE_MIN.getByte() == -128);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>146</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_BYTE_MAX.getByte() == 127);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>148</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>149</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_BYTE_ERROR.getByte();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>150</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>151</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>153</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>154</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_BYTE_MIN_ERROR.getByte();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>155</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>156</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>158</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>159</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_BYTE_MAX_ERROR.getByte();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>160</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>161</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>163</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_BYTE_DEFALT.getByte() == (byte)123);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>166</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>167</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.NOTHING.getByte();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>168</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>169</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>172</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>173</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			assertTrue(DummyProperty.NOTHING_BYTE.getByte() == (byte)1);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>174</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>175</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>176</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>178</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>179</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.NOTHING_STRING.getByte();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>180</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>181</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>182</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>184</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@Test</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>185</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void getDouble() {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>186</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>187</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.DOUBLE_BLANK.getDouble();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>188</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>189</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>191</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.DOUBLE_MIN.getDouble() == 4.9E-324);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>193</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.DOUBLE_MAX.getDouble() == 1.7976931348623157E308);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>195</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>196</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.DOUBLE_ERROR.getDouble();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>197</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>198</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>200</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>201</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.DOUBLE_MIN_ERROR.getDouble();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>202</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>203</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>205</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>206</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.DOUBLE_MAX_ERROR.getDouble();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>207</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>208</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>210</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.DOUBLE_DEFALT.getDouble() == (double)1.1);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>214</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>215</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_DOUBLE_BLANK.getDouble();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>216</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>217</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>219</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_DOUBLE_MIN.getDouble() == 4.9E-324);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>221</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_DOUBLE_MAX.getDouble() == 1.7976931348623157E308);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>223</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>224</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_DOUBLE_ERROR.getDouble();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>225</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>226</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>228</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>229</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_DOUBLE_MIN_ERROR.getDouble();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>230</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>231</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>233</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>234</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_DOUBLE_MAX_ERROR.getDouble();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>235</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>236</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>238</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_DOUBLE_DEFALT.getDouble() == (double)1.1);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>239</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>241</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@Test</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>242</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void getFloat() {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>243</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>244</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.FLOAT_BLANK.getFloat();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>245</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>246</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>248</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.FLOAT_MIN.getFloat() == Float.MIN_VALUE);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>250</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.FLOAT_MAX.getFloat() == Float.MAX_VALUE);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>252</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>253</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.FLOAT_ERROR.getFloat();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>254</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>255</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>257</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>258</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.FLOAT_MIN_ERROR.getFloat();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>259</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>260</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>262</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>263</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.FLOAT_MAX_ERROR.getFloat();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>264</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>265</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>267</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.FLOAT_DEFALT.getFloat() == (float)1.1F);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>270</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>271</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_FLOAT_BLANK.getFloat();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>272</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>273</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>275</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_FLOAT_MIN.getFloat() == Float.MIN_VALUE);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>277</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.FLOAT_MAX.getFloat() == Float.MAX_VALUE);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>279</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>280</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_FLOAT_ERROR.getFloat();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>281</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>282</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>284</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>285</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_FLOAT_MIN_ERROR.getFloat();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>286</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>287</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>289</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>290</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_FLOAT_MAX_ERROR.getFloat();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>291</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>292</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>294</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_FLOAT_DEFALT.getFloat() == (float)1.1F);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>295</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>297</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@Test</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>298</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void getInt() {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>299</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>300</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.INT_BLANK.getInt();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>301</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>302</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>304</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.INT_MIN.getInt() == -2147483648);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>306</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.INT_MAX.getInt() == 2147483647);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>308</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>309</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.INT_ERROR.getInt();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>310</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>311</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>313</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>314</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.INT_MIN_ERROR.getInt();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>315</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>316</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>318</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>319</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.INT_MAX_ERROR.getInt();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>320</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>321</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>323</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.INT_DEFALT.getInt() == 123456);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>326</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>327</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_INT_BLANK.getInt();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>328</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>329</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>331</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_INT_MIN.getInt() == -2147483648);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>333</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_INT_MAX.getInt() == 2147483647);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>335</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>336</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_INT_ERROR.getInt();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>337</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>338</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>340</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>341</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_INT_MIN_ERROR.getInt();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>342</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>343</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>345</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>346</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_INT_MAX_ERROR.getInt();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>347</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>348</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>350</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_INT_DEFALT.getInt() == 123456);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>351</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>353</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@Test</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>354</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void getLong() {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>355</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>356</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.LONG_BLANK.getLong();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>357</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>358</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>360</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.LONG_MIN.getLong() == -9223372036854775808L);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>362</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.LONG_MAX.getLong() == 9223372036854775807L);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>364</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>365</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.LONG_ERROR.getLong();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>366</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>367</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>369</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>370</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.LONG_MIN_ERROR.getLong();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>371</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>372</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>374</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>375</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.LONG_MAX_ERROR.getLong();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>376</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>377</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>379</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.LONG_DEFALT.getLong() == (long)9223372036854775807L);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>383</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>384</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_LONG_BLANK.getLong();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>385</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>386</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>388</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_LONG_MIN.getLong() == -9223372036854775808L);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>390</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_LONG_MAX.getLong() == 9223372036854775807L);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>392</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>393</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_LONG_ERROR.getLong();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>394</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>395</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>397</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>398</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_LONG_MIN_ERROR.getLong();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>399</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>400</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>402</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>403</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_LONG_MAX_ERROR.getLong();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>404</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>405</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>407</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_LONG_DEFALT.getLong() == (long)9223372036854775807L);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>408</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>410</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@Test</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>411</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void getShort() {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>412</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>413</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.SHORT_BLANK.getShort();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>414</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>415</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>417</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.SHORT_MIN.getShort() == -32768);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>419</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.SHORT_MAX.getShort() == 32767);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>421</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>422</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.SHORT_ERROR.getShort();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>423</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>424</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>426</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>427</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.SHORT_MIN_ERROR.getShort();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>428</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>429</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>431</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>432</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.SHORT_MAX_ERROR.getShort();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>433</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>434</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>436</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.SHORT_DEFALT.getShort() == (short)123);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>440</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>441</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_SHORT_BLANK.getShort();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>442</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>443</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>445</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_SHORT_MIN.getShort() == -32768);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>447</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_SHORT_MAX.getShort() == 32767);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>449</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>450</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_SHORT_ERROR.getShort();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>451</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>452</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>454</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>455</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_SHORT_MIN_ERROR.getShort();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>456</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>457</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>459</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>460</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_SHORT_MAX_ERROR.getShort();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>461</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>462</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>464</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_SHORT_DEFALT.getShort() == (short)123);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>465</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>467</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@Test</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>468</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void getBigDecimal() {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>469</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>470</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.BIGDECIMAL_BLANK.getBigDecimal();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>471</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>472</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>474</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.BIGDECIMAL_VALUE.getBigDecimal().equals(new BigDecimal("9999999999999999")));</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>476</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>477</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.BIGDECIMAL_ERROR.getBigDecimal();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>478</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>479</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>481</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.BIGDECIMAL_DEFALT.getBigDecimal().equals(new BigDecimal("123")));</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>485</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>486</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_BIGDECIMAL_BLANK.getBigDecimal();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>487</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>488</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>490</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_BIGDECIMAL_VALUE.getBigDecimal().equals(new BigDecimal("9999999999999999")));</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>492</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		try {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>493</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			DummyProperty.F_BIGDECIMAL_ERROR.getBigDecimal();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>494</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>			fail();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>495</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		} catch (PropertyConversionException e) {}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>497</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_BIGDECIMAL_DEFALT.getBigDecimal().equals(new BigDecimal("123")));</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>498</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>500</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@Test</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>501</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void getString() {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>502</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.STRING_BLANK.getString().equals(""));</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>504</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.STRING.getString().equals("STRING"));</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>506</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.STRING_DEFALT.getString().equals("aaaa"));</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>510</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_STRING_BLANK.getString().equals(""));</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>512</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_STRING.getString().equals("STRING"));</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>514</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>		assertTrue(DummyProperty.F_STRING_DEFALT.getString().equals("aaaa"));</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>515</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>518</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>520</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>class DummyProperty extends AbstractProperty {</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>522</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l522s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BOOLEAN_BLANK</span> = new DummyProperty("BOOLEAN_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>524</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l524s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BOOLEAN_TRUE</span> = new DummyProperty("BOOLEAN_TRUE");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>526</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l526s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BOOLEAN_FALSE</span> = new DummyProperty("BOOLEAN_FALSE");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>528</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l528s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BOOLEAN_ERROR</span> = new DummyProperty("BOOLEAN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>530</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l530s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BOOLEAN_DEFALT</span> = new DummyProperty("BOOLEAN_ERROR", true);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>532</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l532s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BYTE_BLANK</span> = new DummyProperty("BYTE_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>534</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l534s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BYTE_MIN</span> = new DummyProperty("BYTE_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>536</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l536s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BYTE_MAX</span> = new DummyProperty("BYTE_MAX");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>538</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l538s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BYTE_ERROR</span> = new DummyProperty("BYTE_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>540</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l540s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BYTE_MIN_ERROR</span> = new DummyProperty("BYTE_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>542</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l542s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BYTE_MAX_ERROR</span> = new DummyProperty("BYTE_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>544</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l544s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BYTE_DEFALT</span> = new DummyProperty("BYTE_DEFALT", (byte)123);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>546</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l546s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>DOUBLE_BLANK</span> = new DummyProperty("DOUBLE_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>548</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l548s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>DOUBLE_MIN</span> = new DummyProperty("DOUBLE_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>550</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l550s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>DOUBLE_MAX</span> = new DummyProperty("DOUBLE_MAX");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>552</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l552s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>DOUBLE_ERROR</span> = new DummyProperty("DOUBLE_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>554</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l554s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>DOUBLE_MIN_ERROR</span> = new DummyProperty("DOUBLE_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>556</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l556s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>DOUBLE_MAX_ERROR</span> = new DummyProperty("DOUBLE_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>558</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l558s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>DOUBLE_DEFALT</span> = new DummyProperty("DOUBLE_DEFALT", (double)1.1);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>560</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l560s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>FLOAT_BLANK</span> = new DummyProperty("FLOAT_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>562</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l562s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>FLOAT_MIN</span> = new DummyProperty("FLOAT_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>564</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l564s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>FLOAT_MAX</span> = new DummyProperty("FLOAT_MAX");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>566</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l566s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>FLOAT_ERROR</span> = new DummyProperty("FLOAT_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>568</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l568s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>FLOAT_MIN_ERROR</span> = new DummyProperty("FLOAT_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>570</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l570s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>FLOAT_MAX_ERROR</span> = new DummyProperty("FLOAT_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>572</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l572s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>FLOAT_DEFALT</span> = new DummyProperty("FLOAT_DEFALT", (float)1.1F);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>574</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l574s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>INT_BLANK</span> = new DummyProperty("INT_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>576</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l576s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>INT_MIN</span> = new DummyProperty("INT_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>578</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l578s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>INT_MAX</span> = new DummyProperty("INT_MAX");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>580</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l580s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>INT_ERROR</span> = new DummyProperty("INT_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>582</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l582s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>INT_MIN_ERROR</span> = new DummyProperty("INT_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>584</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l584s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>INT_MAX_ERROR</span> = new DummyProperty("INT_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>586</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l586s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>INT_DEFALT</span> = new DummyProperty("INT_DEFALT", (int)123456);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>588</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l588s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>LONG_BLANK</span> = new DummyProperty("LONG_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>590</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l590s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>LONG_MIN</span> = new DummyProperty("LONG_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>592</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l592s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>LONG_MAX</span> = new DummyProperty("LONG_MAX");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>594</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l594s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>LONG_ERROR</span> = new DummyProperty("LONG_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>596</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l596s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>LONG_MIN_ERROR</span> = new DummyProperty("LONG_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>598</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l598s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>LONG_MAX_ERROR</span> = new DummyProperty("LONG_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>600</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l600s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>LONG_DEFALT</span> = new DummyProperty("LONG_DEFALT", (long)9223372036854775807L);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>602</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l602s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>SHORT_BLANK</span> = new DummyProperty("SHORT_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>604</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l604s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>SHORT_MIN</span> = new DummyProperty("SHORT_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>606</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l606s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>SHORT_MAX</span> = new DummyProperty("SHORT_MAX");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>608</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l608s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>SHORT_ERROR</span> = new DummyProperty("SHORT_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>610</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l610s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>SHORT_MIN_ERROR</span> = new DummyProperty("SHORT_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>612</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l612s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>SHORT_MAX_ERROR</span> = new DummyProperty("SHORT_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>614</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l614s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>SHORT_DEFALT</span> = new DummyProperty("SHORT_DEFALT", (short)123);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>616</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l616s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BIGDECIMAL_BLANK</span> = new DummyProperty("BIGDECIMAL_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>618</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l618s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BIGDECIMAL_MIN</span> = new DummyProperty("BIGDECIMAL_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>620</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l620s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BIGDECIMAL_VALUE</span> = new DummyProperty("BIGDECIMAL_VALUE");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>622</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l622s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BIGDECIMAL_ERROR</span> = new DummyProperty("BIGDECIMAL_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>624</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l624s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BIGDECIMAL_MIN_ERROR</span> = new DummyProperty("BIGDECIMAL_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>626</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l626s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BIGDECIMAL_MAX_ERROR</span> = new DummyProperty("BIGDECIMAL_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>628</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l628s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>BIGDECIMAL_DEFALT</span> = new DummyProperty("BIGDECIMAL_DEFALT", new BigDecimal("123"));</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>630</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l630s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>STRING_BLANK</span> = new DummyProperty("STRING_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>632</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l632s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>STRING</span> = new DummyProperty("STRING");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>634</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l634s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>STRING_DEFALT</span> = new DummyProperty("STRING_DEFALT", "aaaa");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>636</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l636s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BOOLEAN_BLANK</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BOOLEAN_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>638</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l638s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BOOLEAN_TRUE</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BOOLEAN_TRUE");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>640</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l640s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BOOLEAN_FALSE</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BOOLEAN_FALSE");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>642</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l642s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BOOLEAN_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BOOLEAN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>644</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l644s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BOOLEAN_DEFALT</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BOOLEAN_ERROR", true);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>646</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l646s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BYTE_BLANK</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BYTE_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>648</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l648s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BYTE_MIN</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BYTE_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>650</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l650s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BYTE_MAX</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BYTE_MAX");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>652</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l652s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BYTE_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BYTE_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>654</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l654s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BYTE_MIN_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BYTE_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>656</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l656s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BYTE_MAX_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BYTE_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>658</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l658s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BYTE_DEFALT</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BYTE_DEFALT", (byte)123);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>660</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l660s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_DOUBLE_BLANK</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "DOUBLE_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>662</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l662s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_DOUBLE_MIN</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "DOUBLE_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>664</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l664s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_DOUBLE_MAX</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "DOUBLE_MAX");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>666</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l666s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_DOUBLE_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "DOUBLE_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>668</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l668s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_DOUBLE_MIN_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "DOUBLE_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>670</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l670s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_DOUBLE_MAX_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "DOUBLE_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>672</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l672s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_DOUBLE_DEFALT</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "DOUBLE_DEFALT", (double)1.1);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>674</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l674s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_FLOAT_BLANK</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "FLOAT_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>676</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l676s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_FLOAT_MIN</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "FLOAT_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>678</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l678s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_FLOAT_MAX</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "FLOAT_MAX");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>680</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l680s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_FLOAT_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "FLOAT_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>682</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l682s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_FLOAT_MIN_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "FLOAT_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>684</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l684s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_FLOAT_MAX_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "FLOAT_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>686</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l686s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_FLOAT_DEFALT</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "FLOAT_DEFALT", (float)1.1F);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>688</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l688s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_INT_BLANK</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "INT_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>690</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l690s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_INT_MIN</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "INT_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>692</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l692s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_INT_MAX</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "INT_MAX");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>694</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l694s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_INT_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "INT_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>696</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l696s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_INT_MIN_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "INT_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>698</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l698s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_INT_MAX_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "INT_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>700</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l700s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_INT_DEFALT</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "INT_DEFALT", (int)123456);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>702</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l702s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_LONG_BLANK</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "LONG_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>704</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l704s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_LONG_MIN</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "LONG_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>706</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l706s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_LONG_MAX</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "LONG_MAX");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>708</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l708s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_LONG_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "LONG_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>710</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l710s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_LONG_MIN_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "LONG_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>712</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l712s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_LONG_MAX_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "LONG_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>714</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l714s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_LONG_DEFALT</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "LONG_DEFALT", (long)9223372036854775807L);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>716</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l716s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_SHORT_BLANK</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "SHORT_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>718</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l718s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_SHORT_MIN</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "SHORT_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>720</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l720s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_SHORT_MAX</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "SHORT_MAX");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>722</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l722s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_SHORT_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "SHORT_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>724</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l724s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_SHORT_MIN_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "SHORT_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>726</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l726s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_SHORT_MAX_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "SHORT_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>728</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l728s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_SHORT_DEFALT</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "SHORT_DEFALT", (short)123);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>730</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l730s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BIGDECIMAL_BLANK</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BIGDECIMAL_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>732</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l732s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BIGDECIMAL_MIN</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BIGDECIMAL_MIN");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>734</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l734s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BIGDECIMAL_VALUE</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BIGDECIMAL_VALUE");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>736</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l736s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BIGDECIMAL_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BIGDECIMAL_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>738</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l738s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BIGDECIMAL_MIN_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BIGDECIMAL_MIN_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>740</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l740s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BIGDECIMAL_MAX_ERROR</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BIGDECIMAL_MAX_ERROR");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>742</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l742s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_BIGDECIMAL_DEFALT</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "BIGDECIMAL_DEFALT", new BigDecimal("123"));</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>744</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l744s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_STRING_BLANK</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "STRING_BLANK");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>746</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l746s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_STRING</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "STRING");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>748</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l748s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>F_STRING_DEFALT</span> = new DummyProperty(new File("jp/co/dk/property/DummyProperty.properties"), "STRING_DEFALT", "aaaa");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>750</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l750s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>NOTHING</span> = new DummyProperty("NOTHING");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>752</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l752s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>NOTHING_BOOLEAN</span> = new DummyProperty("NOTHING", true);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>754</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l754s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>NOTHING_BYTE</span> = new DummyProperty("NOTHING", (byte)1);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>756</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l756s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>NOTHING_DOUBLE</span> = new DummyProperty("NOTHING", (double)1);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>758</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l758s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>NOTHING_FLOAT</span> = new DummyProperty("NOTHING", (float)1);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>760</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l760s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>NOTHING_INT</span> = new DummyProperty("NOTHING", (int)1);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>762</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l762s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>NOTHING_LONG</span> = new DummyProperty("NOTHING", (long)1);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>764</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l764s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>NOTHING_SHORT</span> = new DummyProperty("NOTHING", (short)1);</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>766</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l766s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>NOTHING_BIGDECIMAL</span> = new DummyProperty("NOTHING", new BigDecimal("1"));</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>768</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l768s0'>	public static DummyProperty <span class='static uncovered' title='Reads: 0 Writes: 0'>NOTHING_STRING</span> = new DummyProperty("NOTHING", "DEFAULT");</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティキーをもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param key プロパティキー
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>778</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (String key) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>779</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l779s0'>		super(key);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>780</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l780s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>790</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (String key, boolean defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>791</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l791s0'>		super(key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>792</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l792s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>802</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (String key, byte defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>803</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l803s0'>		super(key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>804</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l804s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>814</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (String key, double defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>815</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l815s0'>		super(key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>816</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l816s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>826</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (String key, float defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>827</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l827s0'>		super(key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>828</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l828s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>838</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (String key, int defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>839</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l839s0'>		super(key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>840</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l840s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>850</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (String key, long defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>851</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l851s0'>		super(key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>852</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l852s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>862</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (String key, short defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>863</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l863s0'>		super(key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>864</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l864s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>874</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (String key, BigDecimal defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>875</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l875s0'>		super(key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>876</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l876s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param key プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>886</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (String key, String defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>887</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l887s0'>		super(key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>888</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l888s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティファイルパス、プロパティキーをもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param file プロパティファイルパス
+	 * @param key  プロパティキー
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>898</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (File file, String key) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>899</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l899s0'>		super(file, key);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>900</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l900s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティファイルパス、プロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param file プロパティファイルパス
+	 * @param key  プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>912</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (File file, String key, boolean defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>913</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l913s0'>		super(file, key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>914</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l914s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティファイルパス、プロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param file プロパティファイルパス
+	 * @param key  プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>925</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (File file, String key, byte defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>926</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l926s0'>		super(file, key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>927</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l927s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティファイルパス、プロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param file プロパティファイルパス
+	 * @param key  プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>938</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (File file, String key, double defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>939</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l939s0'>		super(file, key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>940</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l940s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティファイルパス、プロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param file プロパティファイルパス
+	 * @param key  プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>951</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (File file, String key, float defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>952</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l952s0'>		super(file, key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>953</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l953s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティファイルパス、プロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param file プロパティファイルパス
+	 * @param key  プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>964</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (File file, String key, int defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>965</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l965s0'>		super(file, key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>966</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l966s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティファイルパス、プロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param file プロパティファイルパス
+	 * @param key  プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>977</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (File file, String key, long defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>978</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l978s0'>		super(file, key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>979</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l979s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティファイルパス、プロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param file プロパティファイルパス
+	 * @param key  プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>990</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (File file, String key, short defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>991</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l991s0'>		super(file, key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>992</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l992s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティファイルパス、プロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param file プロパティファイルパス
+	 * @param key  プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>1003</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (File file, String key, BigDecimal defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>1004</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l1004s0'>		super(file, key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>1005</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l1005s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td class='comment' onclick='showHideLines(this)'><div>	/**
+	 * コンストラクタ&lt;p>
+	 * 
+	 * 指定されたプロパティファイルパス、プロパティキー、デフォルト値をもとにプロパティ定数クラスを生成します。
+	 * 
+	 * @param file プロパティファイルパス
+	 * @param key  プロパティキー
+	 * @param defaltValue デフォルト値
+	 */</div><span>	/*...*/</span></td>
+    </tr>
+    <tr>
+      <td class='line'>1016</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	protected DummyProperty (File file, String key, String defaltValue) throws PropertyException {</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>1017</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l1017s0'>		super(file, key, defaltValue);</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>1018</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l1018s0'>	}</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>1019</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>}</pre></td>
+    </tr>
+  </table>
+</body>
+</html>

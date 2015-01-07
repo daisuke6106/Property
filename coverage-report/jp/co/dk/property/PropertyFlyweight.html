@@ -9,7 +9,7 @@
 </head>
 <body onload='prettyPrint()'>
   <table cellpadding='0' cellspacing='1'>
-    <caption>Property/src/jp/co/dk/property/PropertyFlyweight.java</caption>
+    <caption>Property/src/main/java/jp/co/dk/property/PropertyFlyweight.java</caption>
     <tr>
       <td class='line'>1</td><td>&nbsp;</td>
       <td><pre class='prettyprint'>package jp.co.dk.property;</pre></td>
@@ -26,13 +26,13 @@ import jp.co.dk.property.exception.PropertyException;
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
-      <td class='line'>9</td><td class='count'>1</td>
-      <td><pre class='prettyprint covered' id='l9s0'>class PropertyFlyweight {</pre></td>
+      <td class='line'>9</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l9s0'>class PropertyFlyweight {</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
       <td class='line'>11</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	private static Map&lt;String, PropertiesFile> <span class='static covered' title='Reads: 138 Writes: 0'>propertyMap</span> ;</pre></td>
+      <td><pre class='prettyprint'>	private static Map&lt;String, PropertiesFile> <span class='static covered' title='Reads: 14 Writes: 0'>propertyMap</span> ;</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -44,8 +44,8 @@ import jp.co.dk.property.exception.PropertyException;
       <td><pre class='prettyprint covered' id='l14s0'>		propertyMap = new HashMap&lt;String, PropertiesFile>();</pre></td>
     </tr>
     <tr>
-      <td class='line'>15</td><td>&nbsp;</td>
-      <td><pre class='prettyprint'>	}</pre></td>
+      <td class='line'>15</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l15s0'>	}</pre></td>
     </tr>
     <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
     <tr>
@@ -53,31 +53,31 @@ import jp.co.dk.property.exception.PropertyException;
       <td><pre class='prettyprint'>	static synchronized PropertiesFile getInstance(File file) throws PropertyException {</pre></td>
     </tr>
     <tr>
-      <td></td><td class='count'>136</td>
+      <td></td><td class='count'>12</td>
       <td class='paths'>
         <span style='cursor:default; background-color:#00ff00' onclick='hidePath()'>Path coverage: 2/2</span>
-        <span class='covered' onclick="showPath(this,'l18s0 l20s0 l24s0')">A: 134</span>
-        <span class='covered' onclick="showPath(this,'l18s0 l20s0 l21s0 l24s0')">B: 2</span>
+        <span class='covered' onclick="showPath(this,'l18s0 l20s0 l24s0')">A: 11</span>
+        <span class='covered' onclick="showPath(this,'l18s0 l20s0 l21s0 l24s0')">B: 1</span>
       </td>
     </tr>
     <tr>
-      <td class='line'>18</td><td class='count'>136</td>
+      <td class='line'>18</td><td class='count'>13</td>
       <td><pre class='prettyprint covered' id='l18s0'>		String filePath = file.toString();</pre></td>
     </tr>
     <tr>
-      <td class='line'>19</td><td class='count'>136</td>
+      <td class='line'>19</td><td class='count'>13</td>
       <td><pre class='prettyprint covered' id='l19s0'>		PropertiesFile propertyFile = propertyMap.get(filePath);</pre></td>
     </tr>
     <tr>
-      <td class='line'>20</td><td class='count'>136</td>
-      <td><pre class='prettyprint jmp'>		<span id='l20s0' title='Executions: 136' class='covered'>if (propertyFile == null)</span> <span id='l20s1' title='Executions: 2' class='covered'>{</span></pre></td>
+      <td class='line'>20</td><td class='count'>13</td>
+      <td><pre class='prettyprint jmp'>		<span id='l20s0' title='Executions: 13' class='covered'>if (propertyFile == null)</span> <span id='l20s1' title='Executions: 2' class='covered'>{</span></pre></td>
     </tr>
     <tr>
       <td class='line'>21</td><td class='count'>2</td>
       <td><pre class='prettyprint covered' id='l21s0'>			propertyFile = new PropertiesFile(filePath);</pre></td>
     </tr>
     <tr>
-      <td class='line'>22</td><td class='count'>2</td>
+      <td class='line'>22</td><td class='count'>1</td>
       <td><pre class='prettyprint covered' id='l22s0'>			propertyMap.put(filePath, propertyFile);</pre></td>
     </tr>
     <tr>
@@ -85,7 +85,7 @@ import jp.co.dk.property.exception.PropertyException;
       <td><pre class='prettyprint'>		}</pre></td>
     </tr>
     <tr>
-      <td class='line'>24</td><td class='count'>136</td>
+      <td class='line'>24</td><td class='count'>12</td>
       <td><pre class='prettyprint covered' id='l24s0'>		return propertyFile;</pre></td>
     </tr>
     <tr>

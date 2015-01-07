@@ -1,6 +1,4 @@
-#Fri Feb 21 02:24:52 JST 2014
 eclipse.preferences.version=1
-encoding//test/jp/co/dk/property/DummyProperty.properties=UTF-8
+encoding//src/test/resources/jp/co/dk/property/DummyProperty.properties=UTF-8
 encoding/<project>=UTF-8
-encoding/build.properties=UTF-8
 encoding/build.xml=UTF-8

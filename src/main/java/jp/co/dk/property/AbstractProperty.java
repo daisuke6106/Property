@@ -3,7 +3,6 @@ package jp.co.dk.property;
 import java.io.File;
 import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -19,13 +18,16 @@ import jp.co.dk.property.exception.PropertyException;
  * <br>
  * プロパティファイルの指定方法<br>
  * <br>
- * プロパティファイルを指定する場合はコンストラクタにファイルパスを指定してください。
- * 省略された場合、本抽象クラスを実装しているクラスがあるパッケージ内にあるプロパティファイルが使用されます。
+ * プロパティファイルを指定する場合はコンストラクタにパスを指定してください。<br>
+ * <br>
+ * 省略された場合、このクラスを継承しているクラス名に".properties"が付加された名称のファイルをクラスパスから参照し、使用されます。<br>
+ * 例えば、クラス名が"TestProperty"であった場合、クラスパスから"TestProperty.properties"を検索し、使用します。<br>
+ * <br>
  * <br>
  * ・プロパティ定義例<br>
  * 実行例、実行結果は以下の通りです。<br>
  * <code>
- * TestMessage.java -----------------------------------------------------------------------<br>
+ * TestProperty.java -----------------------------------------------------------------------<br>
  * <br>
  * public class TestProperty extends AbstractProperty {<br>
  * &nbsp;&nbsp;&nbsp;&nbsp;// プロパティ <br>
@@ -109,7 +111,7 @@ public abstract class AbstractProperty implements Property {
 	 * @param key プロパティキー
 	 */
 	protected AbstractProperty (String key) throws PropertyException {
-		this.file = new File(new StringBuilder(this.getClass().getName().replace('.', '/')).append(".properties").toString());
+		this.file = new File(new StringBuilder(this.getClass().getSimpleName()).append(".properties").toString());
 		this.properties = PropertyFlyweight.getInstance(this.file);
 		this.key        = key;
 	}
