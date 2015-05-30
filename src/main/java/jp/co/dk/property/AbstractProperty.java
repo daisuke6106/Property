@@ -111,7 +111,7 @@ public abstract class AbstractProperty implements Property {
 	 * @param key プロパティキー
 	 */
 	protected AbstractProperty (String key) throws PropertyException {
-		this.file = new File(new StringBuilder(this.getClass().getSimpleName()).append(".properties").toString());
+		this.file = new File(new StringBuilder(this.getClass().getName().replace('.', '/')).append(".properties").toString());
 		this.properties = PropertyFlyweight.getInstance(this.file);
 		this.key        = key;
 	}
